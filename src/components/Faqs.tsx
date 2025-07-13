@@ -13,17 +13,17 @@ const Faqs = () => {
       question: "What Do I Need to Start?",
       answer: (
         <>
-          <p>• A device (PC, tablet, or phone) with internet.</p>
-          <p>• Install Zoom or Skype and sign in.</p>
-          <p>• Your teacher will contact you at class time.</p>
+          <p className="px-2">• A device (PC, tablet, or phone) with internet.</p>
+          <p className="px-2">• Install Zoom or Skype and sign in.</p>
+          <p className="px-2">• Your teacher will contact you at class time.</p>
         </>
       ),
     },
     {
       question: "How Long Will It Take to Learn Quran, Arabic, or Islamic Studies?",
       answer: (
-        <p>
-          Duration varies by student. We customize your learning to fit your
+        <p className="px-2">
+          • Duration varies by student. We customize your learning to fit your
           goals and pace.
         </p>
       ),
@@ -31,8 +31,8 @@ const Faqs = () => {
     {
       question: "Do We Have Any Course Materials?",
       answer: (
-        <p>
-          Yes, we provide Qurans, Tajweed books, and Arabic/Islamic study
+        <p className="px-2">
+          • Yes, we provide Qurans, Tajweed books, and Arabic/Islamic study
           materials after joining.
         </p>
       ),

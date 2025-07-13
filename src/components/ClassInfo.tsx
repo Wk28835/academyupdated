@@ -8,18 +8,14 @@ const ClassInfo = () => {
       
   <div className="bg-white text-black shadow-md p-6 w-full md:w-[400px] rounded-md">
           <p className="text-lg mb-4">
-            <b>Class Type:</b> One-one Classes
+            <b>Class Type:</b> One-on-One Classes
           </p>
 
           <p className="text-lg  mb-4">
-            <b>Class Duration:</b> One-one Classes
+            <b>Class Duration:</b> 30 Minutes Per Student
           </p>
 
-          <p className="text-lg  mb-4">
-            <b>Course:</b> One-one Classes
-          </p>
-
-          <p className="text-lg  mb-4">
+           <p className="text-lg  mb-4">
             <b>Time Period:</b> Flexible, based on the student’s availability
           </p>
 

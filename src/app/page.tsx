@@ -1,10 +1,5 @@
 "use client";
 import Image from "next/image";
-
-
-
-
-
 import WhyUs from "../components/whyUs"
 import StudentReview from "../components/StudentReview"
 import Pricing from "../components/Pricing"
@@ -13,21 +8,16 @@ import Faqs from "../components/Faqs";
 
 
 export default function Home() {
-  
-  
-  
-
+ 
   return (
     <div className="w-full px-2 sm:px-4">
       {/* Hero Section */}
       <div
         className="relative w-full  min-h-[600px] lg:min-h-[450px] bg-cover bg-center"
-        style={{ backgroundImage: "url('/bg.jpg')" }}
-      >
+        style={{ backgroundImage: "url('/bg.jpg')" }} >
         <div
-          className="absolute inset-0  bg-opacity-40 rounded-md flex flex-col lg:flex-row sm:flex-row justify-between items-center px-4 sm:px-6 py-2 gap-2 sm:gap-5"
-          style={{ backgroundColor: "#1AB0BA", opacity: "90%" }}
-        >
+          className="absolute inset-0  bg-opacity-40 rounded-md flex flex-col lg:flex-row sm:flex-row lg:justify-between  items-center px-4 sm:px-6 py-2 gap-2 sm:gap-5"
+          style={{ backgroundColor: "#1AB0BA", opacity: "90%" }}>
           <div className="text-white w-full lg:max-w-xl text-center px-2 sm:mx-0">
             <h2 className="font-semibold text-white py-2 text-base font-sans sm:text-2xl pt-2">
               Welcome to Darul Ilm Online Quran Academy
@@ -36,15 +26,16 @@ export default function Home() {
               Join Free Trial Classes
             </h1>
 
-           <div className="w-full py-1">
-               <Image src={"/register.png"} alt="Register Now" width={1000} height={1000}    />
+           <div className="w-full place-items-center py-1">
+               <Image 
+               src={"/register.png"} alt="Register Now" width={600} height={300}    />
           </div>
 
           </div>
           
 
-          <div className="w-full lg:max-w-xs sm:max-w-md">
-            <form className="space-y-3 sm:space-y-3">
+          <div className="w-full lg:max-w-xl sm:max-w-md">
+            <form className="space-y-4 sm:space-y-3">
               <input
                 style={{ backgroundColor: "#1AB0BA" }}
                 type="text"

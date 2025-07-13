@@ -41,7 +41,7 @@ export default function Tajweed() {
             regardless of age or prior experience.
           </p>
 
-          <h1 className="text-2xl text-cyan-500 font-bold mb-4">
+          <h1 className="text-2xl py-2 text-cyan-500 font-bold mb-4">
             What is Tajweed?
           </h1>
           <p className="text-justify  text-gray-700">
@@ -121,53 +121,33 @@ export default function Tajweed() {
 
         <ClassInfo />
 
-        <div className="flex flex-col lg:flex-row flex-wrap justify-center items-stretch gap-6 mt-10 px-4">
-          <div className="flex border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 items-center bg-white p-4 rounded-md">
+        <div className="flex flex-col lg:flex-row flex-wrap justify-center items-stretch gap-4 mt-10 px-4">
+          <div className="flex mx-auto border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 items-center bg-white p-4 rounded-md">
             <div className="mx-2 text-start">
               <p className="text-cyan-500 font-semibold text-lg">
                 What You Will Learn In This Course?
               </p>
               <ul className="list-disc text-wrap ml-6 mt-4 space-y-2 text-gray-800">
-                <li>
-                  Accessibility: Learn from the comfort of your home, no matter
-                  where you are in the world.
-                </li>
-                <li>Read Quranic Verses with Proper Pronunciation</li>
-                <li>Understand and Apply Tajweed Rules</li>
-                <li>Gain Understanding of Quranic Meanings and Tafseer</li>
-                <li>Receive Personalized Feedback for Improvement</li>
-                <li>Continue Your Quranic Learning Journey</li>
+                <li>Recognize Arabic letters in different shapes and sounds</li>
+                <li>Study the Makharij of letters</li>
+                <li>Understand the basic rules of Tajweed</li>
+                <li>Read the Quran with accurate pronunciation</li>
+                <li>Gain foundational Islamic knowledge</li>
               </ul>
             </div>
           </div>
 
-          <div className="flex border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 bg-white p-4 rounded-md">
-            <div className="mx-2  text-start">
+          <div className="flex mx-auto border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 items-center bg-white p-4 rounded-md">
+            <div className="mx-2 text-start">
               <p className="text-cyan-500 font-semibold text-lg">
                 Course Outline: Quran Reading Course
               </p>
               <ul className="list-disc text-wrap ml-6 mt-4 space-y-2 text-gray-800">
-                <li>
-                  Cost-Effective: Save time and resources with our affordable
-                  online classes.
-                </li>
-                <li>
-                  Accessibility: Learn from the comfort of your home, no matter
-                  where you are in the world.
-                </li>
-                <li>
-                  Cost-Effective: Save time and resources with our affordable
-                  online classes.
-                </li>
-                <li>
-                  Interactive Experience: Engage in live sessions with
-                  instructors and participate in group recitations for peer
-                  learning.
-                </li>
-                <li>
-                  Spiritual Fulfillment: Develop a deeper connection with the
-                  Quran and strengthen your faith.
-                </li>
+                <li>Module 1: Introduction to Tajweed</li>
+                <li>Module 2: Mastering the Arabic Alphabet</li>
+                <li>Module 3: Basic Quranic Reading Skills</li>
+                <li>Module 5: Advanced Quran Reading with Tajweed</li>
+                <li>Module 8: Reviewing and Perfecting Your Recitation</li>
               </ul>
             </div>
           </div>

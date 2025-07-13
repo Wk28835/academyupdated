@@ -51,7 +51,7 @@ export default function ArabicCourse() {
             world. Enroll now and start your journey to fluency!
           </p>
           <h1 className="text-2xl text-cyan-500 font-bold my-6">
-            Why Choose Our Quran Tafseer Course Online?
+            Why Choose Our Arabic Language Course Online?
           </h1>
 
           <ul className="list-disc text-wrap ml-6 mt-4 space-y-2 text-gray-800">
@@ -117,49 +117,36 @@ export default function ArabicCourse() {
 
        <ClassInfo />
 
-        <div className="flex flex-col lg:flex-row flex-wrap justify-center items-stretch gap-6 mt-10 px-4">
-          <div className="flex border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 items-center bg-white p-4 rounded-md">
+         <div className="flex flex-col lg:flex-row flex-wrap justify-center items-stretch gap-4 mt-10 px-4">
+          <div className="flex mx-auto border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 items-center bg-white p-4 rounded-md">
             <div className="mx-2 text-start">
               <p className="text-cyan-500 font-semibold text-lg">
                 What You Will Learn In This Course?
               </p>
               <ul className="list-disc text-wrap ml-6 mt-4 space-y-2 text-gray-800">
-                <li>
-                  Accessibility: Learn from the comfort of your home, no matter
-                  where you are in the world.
-                </li>
-                <li>Read Quranic Verses with Proper Pronunciation</li>
-                <li>Understand and Apply Tajweed Rules</li>
-                <li>Gain Understanding of Quranic Meanings and Tafseer</li>
-                <li>Receive Personalized Feedback for Improvement</li>
-                <li>Continue Your Quranic Learning Journey</li>
+                <li>Recognize Arabic letters in different shapes and sounds</li>
+                <li>Study the Makharij of letters</li>
+                <li>Understand the basic rules of Tajweed</li>
+                <li>Read the Quran with accurate pronunciation</li>
+                <li>Gain foundational Islamic knowledge</li>
               </ul>
             </div>
           </div>
 
-          <div className="flex border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 bg-white p-4 rounded-md">
-            <div className="mx-2  text-start">
+          <div className="flex mx-auto border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 items-center bg-white p-4 rounded-md">
+            <div className="mx-2 text-start">
               <p className="text-cyan-500 font-semibold text-lg">
-                Benefits of Quran Tafseer Course
+                Course Outline: Arabic Language Course
               </p>
               <ul className="list-disc text-wrap ml-6 mt-4 space-y-2 text-gray-800">
-                <li>
-                  Accessibility: Learn from the comfort of your home, no matter
-                  where you are in the world.
-                </li>
-                <li>
-                  Global Reach: Tailored for students in the USA, UK, and
-                  Canada, our courses bridge cultural and linguistic barriers.
-                </li>
-                <li>
-                  Interactive Experience: Engage in live sessions with
-                  instructors and participate in group recitations for peer
-                  learning.
-                </li>
-                <li>
-                  Spiritual Fulfillment: Develop a deeper connection with the
-                  Quran and strengthen your faith.
-                </li>
+                <li>Module 1: Introduction to Arabic Language</li>
+                <li>Module 2: Mastering the Arabic Alphabet</li>
+                <li>Module 3: Basic Quranic Reading Skills</li>
+                <li>Module 4: Introduction to Tajweed</li>
+                <li>Module 5: Advanced Quran Reading with Tajweed</li>
+                <li>Module 6: Understanding the Meaning of the Quran</li>
+                <li>Module 7: Quranic Recitation Practice</li>
+                <li>Module 8: Reviewing and Perfecting Your Recitation</li>
               </ul>
             </div>
           </div>

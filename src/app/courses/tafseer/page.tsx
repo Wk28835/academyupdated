@@ -16,7 +16,7 @@ export default function NooraniQaidaCourse() {
         <div className="absolute inset-0   bg-opacity-100 shadow-lg flex flex-col lg:flex-row justify-between items-center px-10 py-12">
           <div className="text-white max-w-xl">
             <h2 className="font-semibold text-xl lg:text-3xl text-wrap font-serif text-yellow-300 pt-4 lg:text-left px-4 lg:px-24">
-              Quran Tafseer Course Online- Tafseer Course in USA, UK & Canada
+              Quran-Tafseer Course in USA, UK & Canada
             </h2>
             <p className="text-base lg:text-xl text-wrap font-serif text-white pt-4 lg:text-left px-4 lg:px-24">
               Learn Quran Tafseer Course Online with expert scholars. Flexible,
@@ -44,8 +44,8 @@ export default function NooraniQaidaCourse() {
             today’s world.
           </p>
 
-          <h1 className="text-2xl text-cyan-500 font-bold mb-4">
-            What is Tajweed?
+          <h1 className="text-2xl py-4 text-cyan-500 font-bold mb-2">
+            What is Tafseer?
           </h1>
           <p className="text-justify  text-gray-700">
             Tajweed refers to the set of rules governing the proper
@@ -71,7 +71,7 @@ export default function NooraniQaidaCourse() {
               years of experience in delivering Tafseer lessons.
             </li>
             <li>
-              IFlexible Timings: Designed for busy individuals, our online
+              Flexible Timings: Designed for busy individuals, our online
               Tafseer classes fit conveniently into your schedule.
             </li>
             <li>
