@@ -11,29 +11,30 @@ export default function Memorization() {
   
 
   return (
-    <div className="w-full mx-0 p-1">
+    <div className="w-full mx-0 ">
       <div
-        className="relative rounded-md w-full h-[320px] bg-cover bg-center"
+        className="relative rounded-md w-full h-[180px] bg-cover bg-center"
         style={{ backgroundImage: "url('/books.jpg')" }}
       >
-        <div className="absolute inset-0   bg-opacity-100 shadow-lg flex flex-col lg:flex-row justify-between items-center px-10 py-12">
+        <div className="absolute inset-0   bg-opacity-100 shadow-lg flex flex-col lg:flex-row justify-between items-center px-10 py-4">
           <div className="text-white max-w-xl">
-            <h2 className="font-semibold text-xl lg:text-3xl text-wrap font-serif text-yellow-300 pt-4 lg:text-left px-4 lg:px-24">
+            <h2 className="font-semibold text-xl lg:text-3xl text-wrap lg:text-left px-4 lg:px-24">
               Quran Memorization Online Course
             </h2>
-            <p className="text-base text-justify font-serif text-white pt-4 lg:text-left px-4 lg:px-10">
+            <p className="text-sm lg:text-xl  lg:text-left px-4 lg:px-24">
               Join our online Quran memorization program to deepen your understanding of the Quran and Islam.
             </p>
           </div>
         </div>
       </div>
 
-      <div className="flex flex-wrap justify-center gap-8 px-2 mt-16">
-        <div className="bg-gray-100 shadow-md p-6 w-full md:w-2/3 sm:w-1/4 rounded-md">
-          <h1 className="text-2xl text-cyan-500 font-bold mb-4">
+      <div style={{ fontFamily: 'Roboto, sans-serif' }} 
+      className="flex flex-wrap justify-center gap-8 px-2 mt-4 lg:mt-16">
+        <div className="bg-white border-1 border-gray-200 shadow-md p-6 w-full md:w-2/3 sm:w-1/4 rounded-md">
+          <h1 className="lg:text-2xl text-xl  text-cyan-500 font-bold mb-4">
             Quran Memorization Online Course – Learn and Master Hifz Quran
           </h1>
-          <p className="text-justify  text-gray-700">
+          <p className="text-justify text-sm  text-gray-700">
             Are you ready to embark on a spiritual journey and memorize the
             Quran? At Darul Ilm Online Quran Academy, we offer the most
             comprehensive online Quran memorization classes, designed for
@@ -41,7 +42,7 @@ export default function Memorization() {
             USA, UK, or the Middle East, our flexible and personalized courses
             ensure you achieve your Hifz goals with ease.
           </p>
-          <h1 className="text-2xl text-cyan-500 font-bold my-6">
+          <h1 className="lg:text-2xl text-xl  text-cyan-500 font-bold my-6">
             What You Will Learn In This Course?
           </h1>
 
@@ -53,11 +54,11 @@ export default function Memorization() {
             <li>Spiritual Connection</li>
           </ul>
 
-          <h1 className="text-2xl text-cyan-500 font-bold my-6">
+          <h1 className="lg:text-2xl text-xl  text-cyan-500 font-bold my-6">
             Certified and Experienced Instructors
           </h1>
 
-          <p className="text-justify my-2  text-gray-700">
+          <p className="text-justify text-sm my-2  text-gray-700">
             At Darul Ilm Online Quran Academy, we are proud to have a team of
             highly qualified instructors who are experts in Quranic studies,
             Tajweed, and recitation. Our instructors are passionate about
@@ -67,11 +68,11 @@ export default function Memorization() {
             journey.
           </p>
 
-          <h1 className="text-2xl text-cyan-500 font-bold my-6">
+          <h1 className="lg:text-2xl text-xl  text-cyan-500 font-bold my-6">
             Free Trial Class
           </h1>
 
-          <p className="text-justify my-2  text-gray-700">
+          <p className="text-justify my-2 text-sm  text-gray-700">
             Once you complete your memorization, you can guide others as a tutor
             or scholar.
           </p>
@@ -120,21 +121,21 @@ export default function Memorization() {
         </div>
 
         <div className="bg-white border-2 border-gray-300  shadow-md p-6 w-full md:w-10/12 sm:w-1/4 rounded-md">
-          <h1 className="text-2xl text-cyan-500 font-bold mb-4">
+          <h1 className="lg:text-2xl text-xl  text-cyan-500 font-bold mb-4">
             Basic Quran Reading for Beginners
           </h1>
-          <p className="text-justify  text-gray-700">
+          <p className="text-justify text-sm  text-gray-700">
             For those new to the Quran, our course starts with the fundamentals
             of Quran reading. This includes learning to recognize the Arabic
             alphabet, vowels, and how to form basic words. We guide you
             step-by-step from the basics, making it ideal for children and
             adults who are new to Quranic studies.
           </p>
-          <h1 className="text-2xl text-cyan-500 font-bold my-6">
+          <h1 className="lg:text-2xl text-xl  text-cyan-500 font-bold my-6">
             Quran Reading with Urdu Translation and Tafseer
           </h1>
 
-          <p className="text-justify my-2  text-gray-700">
+          <p className="text-justify my-2 text-sm  text-gray-700">
             Our curriculum goes beyond just reading the Quran. We provide
             detailed Urdu translations and Tafseer (exegesis) to help you
             understand the meanings and context of Quranic verses. This deeper
@@ -142,22 +143,22 @@ export default function Memorization() {
             a more meaningful way.
           </p>
 
-          <h1 className="text-2xl text-cyan-500 font-bold my-6">
+          <h1 className="lg:text-2xl text-xl  text-cyan-500 font-bold my-6">
             Improve Quran Recitation and Fluency
           </h1>
 
-          <p className="text-justify my-2  text-gray-700">
+          <p className="text-justify my-2 text-sm  text-gray-700">
             In addition to basic reading, we focus on improving your fluency in
             reciting the Quran. With practical recitation lessons led by
             experienced instructors, you will gain confidence in reading the
             Quran and perfect your pronunciation.
           </p>
 
-          <h1 className="text-2xl text-cyan-500 font-bold my-6">
+          <h1 className="lg:text-2xl text-xl  text-cyan-500 font-bold my-6">
             Free Online Quran Reading Trial
           </h1>
 
-          <p className="text-justify my-2  text-gray-700">
+          <p className="text-justify my-2 text-sm  text-gray-700">
             If you are unsure whether online learning is right for you, we offer
             a free trial class where you can experience our teaching methods
             firsthand. This gives you the chance to see how our courses work and
@@ -165,13 +166,16 @@ export default function Memorization() {
           </p>
         </div>
 
-        {/* Why Academy Section */}
-       <WhyUs />
+       
       </div>
 
-      <div className="flex flex-wrap justify-center gap-8 px-4 mt-16">
+      <div className="px-0 w-full">
+      <WhyUs />
+      </div>
+
+      <div className="flex flex-wrap justify-center gap-8 px-4 mt-2 lg:mt-16">
         <div className="bg-white border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 p-6 w-full md:w-[600px] rounded-md">
-          <h1 className="text-2xl text-black font-bold mb-4">Terms & Conditions</h1>
+          <h1 className="lg:text-2xl text-xl  text-black font-bold mb-4">Terms & Conditions</h1>
           <p className="text-justify text-gray-700">
             <b>Darul Ilm Online Quran Academy</b> maintains the privacy of both
             students and teachers. All personal information is treated as
@@ -181,7 +185,7 @@ export default function Memorization() {
         </div>
 
         <div className="bg-white border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 p-6 w-full md:w-[400px] rounded-md">
-          <h1 className="text-2xl text-black font-bold mb-4">Join Free Trial Classes</h1>
+          <h1 className="lg:text-2xl text-xl  text-black font-bold mb-4">Join Free Trial Classes</h1>
           <p className="mb-4 text-gray-700">
             Male & Female Teachers Are Available
           </p>

@@ -78,13 +78,13 @@ export default function Home() {
       </div>
 
       {/* Courses Header */}
-      <div className="mt-12 shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 sm:mt-16 mx-auto w-full max-w-screen-lg text-center px-4 sm:px-6">
-        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black">
+      <div className="mt-16 pb-8 shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 sm:mt-16 mx-auto w-full max-w-screen-lg text-center px-4 sm:px-6">
+        <h1 className="text-2xl pt-4 sm:text-3xl md:text-4xl font-bold text-black">
           Explore Our Courses
         </h1>
-        <p className="pt-3  sm:pt-4 text-black pb-4 sm:pb-6 text-sm sm:text-base md:text-base">
+        <p className="pt-3 text-ellipsis sm:pt-4pb-4 sm:pb-6 text-sm sm:text-base md:text-base">
           Explore our online courses, including Noorani Qaida, Quran Reading,
-          Tajweed, Tafseer, Memorization, Arabic Language, and Islamic Studies.
+          Tajweed, Tafseer, Memorization, Hadith, Arabic Language, and Islamic Studies.
         </p>
       </div>
 
@@ -93,43 +93,48 @@ export default function Home() {
         {[
           {
             img: "/norani_qaida.jpg",
-            title: "Quran Reading",
-            desc: "Learn Noorani Qaida with expert guidance to master accurate Quranic pronunciation. Build a strong foundation in Arabic reading and improve your recitation skills. Gain the confidence to read the Quran correctly with proper articulation and understanding.",
+            title: "Noorani Qaida",
+            desc: "The Noorani Qaida is the first and most important step in learning the Quran. This course is specially designed for children and beginners to help them recognize Arabic letters, learn correct pronunciation (Makharij), and form basic words. Our qualified teachers use simple and engaging methods to build a strong foundation for future Quranic reading and Tajweed.",
           },
           {
             img: "/reading.jpg",
             title: "Quran Reading",
-            desc: "Master Quran reading with proper pronunciation and fluency through expert guidance. Improve your recitation skills with personalized lessons from experienced tutors. Gain confidence in reading the Quran with precise articulation and accuracy.",
-          },
-          {
-            img: "/tafseer.jpg",
-            title: "Noorani Qaida",
-            desc: "Understand the meanings of the Quran with in-depth Tafseer and explore the wisdom behind its verses.  Connection to the Quran by learning its historical context and spiritual lessons. Enhance your comprehension of the Quran and apply its teachings to your daily life.",
-          },
-          {
-            img: "/memory.jpg",
-            title: "Quran Memorization",
-            desc: "Memorize the Quran with expert guidance and proven techniques to enhance your retention. Strengthen your memory through consistent daily practice and personalized support. Achieve your goal of Quranic memorization with focus, dedication, and expert strategies.",
-          },
-          {
-            img: "/translate.jpg",
-            title: "Quran Translation",
-            desc: "Learn Quranic translation with clear and detailed explanations to understand the message of the Quran in your own language. Gain deeper insight into the meanings and teachings of the Quran. Bridge the gap between Arabic and your language for a more meaningful connection with the Quran.",
+            desc: "This course is designed for those who want to recite the Quran fluently and correctly. It focuses on improving pronunciation, rhythm, and confidence in reading. With step-by-step guidance and daily practice under the supervision of expert teachers, students will develop a strong connection with the Quran and enhance their reading skills beautifully.",
           },
           {
             img: "/tajweed.jpg",
             title: "Quran Tajweed",
-            desc: "Perfect your Quran recitation by mastering the Tajweed rules for proper pronunciation and articulation. Learn the essential techniques to ensure accurate and beautiful recitation of the Quran. Enhance your skills through expert guidance and consistent practice for flawless delivery.",
+            desc: "Reciting the Quran with Tajweed is essential to preserve the correct pronunciation and beauty of Allah’s words. In this course, students learn the rules of Tajweed including Makharij (articulation points), Sifaat (letter characteristics), Ghunna, Madd, Idghaam, and more. Practical exercises and personalized instruction help students perfect their recitation.",
+          },
+          {
+            img: "/memory.jpg",
+            title: "Quran Memorization",
+            desc: "Memorizing the Quran is a noble achievement. This course offers a structured memorization plan with daily lessons, revision schedules, and memory-building techniques. Students are guided by experienced Huffaz and receive motivation, encouragement, and consistent support to complete their Hifz journey with success.",
+          },
+          {
+            img: "/translate.jpg",
+            title: "Quran Translation",
+            desc: "Understanding the Quran is essential for every Muslim. This course offers word-by-word translation in Urdu or English along with explanations. Each lesson helps students understand vocabulary, verse meanings, and practical messages in a simple and effective way, making the Quran’s message clear and applicable to daily life.",
+          },
+          {
+            img: "/tafseer.jpg",
+            title: "Quran Tafseer",
+            desc: "To understand the depth and wisdom of the Quran, Tafseer is necessary. This course explains the background (Asbab al-Nuzul), purpose, and meanings of verses using authentic classical and modern Tafseer. It enables students to explore the Quran deeply and apply its lessons in real life, in a clear and easy-to-understand format.",
+          },
+          {
+            img: "/hadith.jpg",
+            title: "Hadith Course",
+            desc: "The sayings of Prophet Muhammad ﷺ are a guiding light for every Muslim. In this course, students study authentic Hadiths from major collections like Bukhari and Muslim. Each Hadith is explained with its meaning, context, and practical application, helping students bring the Sunnah into their everyday lives.",
           },
           {
             img: "/language.jpg",
             title: "Arabic Language",
-            desc: "Learn Arabic reading, writing, and speaking skills to master the language of the Quran. Enhance your understanding and communication with expert tutors who guide you through every step. Build a strong foundation in Arabic to deepen your connection with the Quranic teachings.",
+            desc: "This course is for students who want to learn the Arabic language to better understand the Quran and Hadith. It covers Arabic grammar, vocabulary, sentence structure, and basic conversation. Special focus is given to Quranic Arabic to enable students to connect deeply with Islamic texts and gain insight directly from the original language.",
           },
           {
             img: "/studies.jpg",
             title: "Islamic Studies Courses",
-            desc: "Study a variety of Islamic Studies courses to deepen your understanding of the Quran, Hadith, Fiqh, and Aqidah. Gain a comprehensive understanding of Islamic history, ethics, and philosophy through expert guidance. Master the essential teachings of Islam and apply them to your daily life with clarity and confidence.",
+            desc: "A complete and well-rounded course that covers Aqeedah (belief), Ibadah (worship), Seerah (biography of the Prophet ﷺ), Fiqh (Islamic rulings), and Islamic manners. This course is suitable for children, teens, and adults. It provides a strong Islamic foundation along with practical guidance for living an Islamic life.",
           },
         ].map((course, idx) => (
           <div
@@ -137,13 +142,13 @@ export default function Home() {
             className="shadow-md hover:shadow-lg hover:shadow-cyan-500 shadow-cyan-400 rounded-md"
           >
             <Image
-              className="h-56 w-full p-4 object-cover"
+              className="h-56 mt-4 w-full px-12 object-cover"
               src={course.img}
               alt="Course Image"
               width={400}
               height={200}
             />
-            <div className="p-4">
+            <div className="p-4 pb-10 ">
               <h2 className="font-bold  text-xl mb-2">{course.title}</h2>
               <p className="text-sm text-justify text-gray-700">
                 {course.desc}
@@ -158,7 +163,7 @@ export default function Home() {
 
       {/* student review section */}
       <div className="max-w-6xl  mt-8 mx-auto p-6">
-        <h1 className="text-3xl font-bold text-gray-800 mb-8 text-center">
+        <h1 className="text-3xl font-bold text-gray-800 mb-1 lg:mb-8 text-center">
           Student&apos;s Reviews
         </h1>
             <StudentReview />
@@ -167,7 +172,7 @@ export default function Home() {
 
       {/*packages section */}
       <div className="mt-16 px-4 text-center">
-        <h1 className="text-4xl font-bold text-black mb-8">
+        <h1 className="lg:text-4xl text-xl font-bold text-black mb-8">
           Packages for Weekdays Lessons
         </h1>
 
@@ -178,9 +183,9 @@ export default function Home() {
       {/* Terms and Trial Form */}
       <div className="flex text-black  flex-wrap justify-center gap-8 px-4 mt-16">
         <div className="bg-white shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 p-6 w-full md:w-[600px] rounded-md">
-          <h1 className="text-2xl font-bold mb-4">Terms & Conditions</h1>
+          <h1 className="lg:text-2xl text-lg font-bold mb-4">Terms & Conditions</h1>
           <p className="text-justify text-gray-700">
-            <b>Darul Ilm Online Quran Academy</b> maintains the privacy of both
+            <b>Darul Ilm Quran Academy</b> maintains the privacy of both
             students and teachers. All personal information is treated as
             confidential.
           </p>

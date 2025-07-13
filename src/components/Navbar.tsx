@@ -72,6 +72,7 @@ const Navbar = () => {
                     { href: "/courses/translate", label: "Quran Translation Course" },
                     { href: "/courses/tajweed", label: "Quran Tajweed Course" },
                     { href: "/courses/tafseer", label: "Quran Tafseer Course" },
+                    { href: "/courses/hadith", label: "Hadith Course" },
                     { href: "/courses/arabic", label: "Arabic Language Course" },
                     { href: "/courses/islamic_studies", label: "Islamic Studies Course" },
                   ].map((item, i) => (
@@ -148,6 +149,7 @@ const Navbar = () => {
                       { href: "/courses/translate", label: "Quran Translation Course" },
                       { href: "/courses/tajweed", label: "Quran Tajweed Course" },
                       { href: "/courses/tafseer", label: "Quran Tafseer Course" },
+                      { href: "/courses/hadith", label: "Hadith Course" },
                       { href: "/courses/arabic", label: "Arabic Language Course" },
                       { href: "/courses/islamic_studies", label: "Islamic Studies Course" },
                     ].map((item, i) => (

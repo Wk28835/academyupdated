@@ -1,30 +1,37 @@
 import Image from "next/image";
 
-import { FaBookOpen } from "react-icons/fa";
 
 export default function Blog() {
   return (
-    <div className="w-full px-4 py-8">
-      <div className="text-center my-10">
+    <div style={{
+    fontFamily:
+      '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Oxygen-Sans", Ubuntu, Cantarell, "Helvetica Neue", sans-serif',
+  }}
+    className="w-full px-4 py-8">
+    
+    {/*   <div className="text-center my-10">
         <div className="flex justify-center items-center gap-2 text-cyan-700">
           <FaBookOpen className="text-3xl" />
-          <h1 className="text-3xl font-bold font-serif">
+         <h1 className="text-3xl font-bold font-serif">
             Our Latest Islamic Blog Posts
           </h1>
+         
         </div>
         <div className="bg-yellow-400 w-24 h-1 mt-2 mx-auto"></div>
       </div>
+      */}
 
+      
       {/* Cards Row 1 */}
       <div className="flex text-black flex-wrap justify-center gap-6">
         {/* Card 1 */}
-        <div className="w-full sm:w-[48%] lg:w-[30%]  shadow-md hover:shadow-cyan-500 rounded-md">
+        <div className="w-full overflow-hidden sm:w-[48%] lg:w-[30%]  shadow-md hover:shadow-cyan-500 rounded-md">
           <Image
             src="/blog1.jpg"
             alt="blog image"
             width={300}
             height={200}
-            className="mx-auto  w-full h-56 object-cover"
+            className="mx-auto transition-transform duration-500 ease-in-out transform hover:scale-110  w-full h-56 object-cover"
           />
           <div className="p-4">
             <h2 className="font-bold text-xl mb-2">
@@ -38,13 +45,13 @@ export default function Blog() {
         </div>
 
         {/* Card 2 */}
-        <div className="w-full sm:w-[48%] lg:w-[30%]  shadow-md hover:shadow-cyan-500 rounded-md">
+        <div className="w-full overflow-hidden sm:w-[48%] lg:w-[30%]  shadow-md hover:shadow-cyan-500 rounded-md">
           <Image
             src="/blog2.jpg"
             alt="Quran Image"
             width={300}
             height={200}
-            className="mx-auto w-full h-56 h-56 object-cover"
+            className="mx-auto transition-transform duration-500 ease-in-out transform hover:scale-110 w-full h-56 object-cover"
           />
           <div className="p-4">
             <h2 className="font-bold text-xl mb-2">
@@ -58,13 +65,13 @@ export default function Blog() {
         </div>
 
         {/* Card 3 */}
-        <div className="w-full sm:w-[48%] lg:w-[30%]  shadow-md hover:shadow-cyan-500 rounded-md">
+        <div className="w-full overflow-hidden sm:w-[48%] lg:w-[30%]  shadow-md hover:shadow-cyan-500 rounded-md">
           <Image
             src="/blog3.jpg"
             alt="Quran Image"
             width={300}
             height={200}
-            className="mx-auto w-full  h-56 object-cover"
+            className="mx-auto w-full transition-transform duration-500 ease-in-out transform hover:scale-110  h-56 object-cover"
           />
           <div className="p-4">
             <h2 className="font-bold text-xl mb-2">Why Does Allah Test Us?</h2>
@@ -79,13 +86,13 @@ export default function Blog() {
       {/* Cards Row 2 */}
       <div className="flex text-black flex-wrap justify-center gap-6 mt-10">
         {/* Card 4 */}
-        <div className="w-full sm:w-[48%] lg:w-[30%]  shadow-md hover:shadow-cyan-500 rounded-md">
+        <div className="w-full overflow-hidden sm:w-[48%] lg:w-[30%]  shadow-md hover:shadow-cyan-500 rounded-md">
           <Image
             src="/blog4.jpg"
             alt="Quran Image"
             width={300}
             height={200}
-            className="mx-auto w-full w-full h-56 object-cover"
+            className="mx-auto transition-transform duration-500 ease-in-out transform hover:scale-110 w-full h-56 object-cover"
           />
           <div className="p-4">
             <h2 className="font-bold text-xl mb-2">Tafsir of Surah Yaseen</h2>
@@ -97,13 +104,13 @@ export default function Blog() {
         </div>
 
         {/* Card 5 */}
-        <div className="w-full sm:w-[48%] lg:w-[30%]  shadow-md hover:shadow-cyan-500 rounded-md">
+        <div className="w-full overflow-hidden sm:w-[48%] lg:w-[30%]  shadow-md hover:shadow-cyan-500 rounded-md">
           <Image
             src="/blog5.jpg"
             alt="Quran Image"
             width={300}
             height={200}
-            className="mx-auto w-full h-56 object-cover"
+            className="mx-auto transition-transform duration-500 ease-in-out transform hover:scale-110 w-full h-56 object-cover"
           />
           <div className="p-4">
             <h2 className="font-bold text-xl mb-2">
@@ -117,13 +124,13 @@ export default function Blog() {
         </div>
 
         {/* Card 6 */}
-        <div className="w-full sm:w-[48%] lg:w-[30%]  shadow-md hover:shadow-cyan-500 rounded-md">
+        <div className="w-full overflow-hidden sm:w-[48%] lg:w-[30%]  shadow-md hover:shadow-cyan-500 rounded-md">
           <Image
             src="/blog1.jpg"
             alt="Quran Image"
             width={300}
             height={200}
-            className="mx-auto w-full h-56 object-cover"
+            className="mx-auto transition-transform duration-500 ease-in-out transform hover:scale-110 w-full h-56 object-cover"
           />
           <div className="p-4">
             <h2 className="font-bold text-xl mb-2">Islamic Architecture</h2>
@@ -136,15 +143,15 @@ export default function Blog() {
       </div>
 
       {/* Cards Row 3 */}
-      <div className="flex text-black flex-wrap justify-center gap-6 mt-10">
+      <div className="flex  text-black flex-wrap justify-center gap-6 mt-10">
         {/* Card 7 */}
-        <div className="w-full sm:w-[48%] lg:w-[30%]  shadow-md hover:shadow-cyan-500 rounded-md">
+        <div className="w-full overflow-hidden sm:w-[48%] lg:w-[30%]  shadow-md hover:shadow-cyan-500 rounded-md">
           <Image
             src="/blog7.jpg"
             alt="Quran Image"
             width={300}
             height={200}
-            className="mx-auto w-full h-56 object-cover"
+            className="mx-auto transition-transform duration-500 ease-in-out transform hover:scale-110 w-full h-56 object-cover"
           />
           <div className="p-4">
             <h2 className="font-bold text-xl mb-2">
@@ -158,13 +165,13 @@ export default function Blog() {
         </div>
 
         {/* Card 8 */}
-        <div className="w-full sm:w-[48%] lg:w-[30%]  shadow-md hover:shadow-cyan-500 rounded-md">
+        <div className="w-full overflow-hidden sm:w-[48%] lg:w-[30%]  shadow-md hover:shadow-cyan-500 rounded-md">
           <Image
             src="/blog8.jpg"
             alt="Quran Image"
             width={300}
             height={200}
-            className="mx-auto w-full h-56 object-cover"
+            className="mx-auto transition-transform duration-500 ease-in-out transform hover:scale-110 w-full h-56 object-cover"
           />
           <div className="p-4">
             <h2 className="font-bold text-xl mb-2">Five Daily Prayers</h2>
@@ -176,13 +183,13 @@ export default function Blog() {
         </div>
 
         {/* Card 9 */}
-        <div className="w-full sm:w-[48%] lg:w-[30%]  shadow-md hover:shadow-cyan-500 rounded-md">
+        <div className="w-full overflow-hidden sm:w-[48%] lg:w-[30%]  shadow-md hover:shadow-cyan-500 rounded-md">
           <Image
             src="/blog9.jpg"
             alt="Quran Image"
             width={300}
             height={200}
-            className="mx-auto w-full h-56 object-cover"
+            className="mx-auto transition-transform duration-500 ease-in-out transform hover:scale-110 w-full h-56 object-cover"
           />
           <div className="p-4">
             <h2 className="font-bold text-xl mb-2">

@@ -9,17 +9,17 @@ export default function NooraniQaidaCourse() {
   
 
   return (
-    <div className="w-full mx-0 p-1">
+    <div className="w-full mx-0 ">
       <div
-        className="relative rounded-md w-full h-[320px] bg-cover bg-center"
+        className="relative rounded-md w-full h-[180px] bg-cover bg-center"
         style={{ backgroundImage: "url('/books.jpg')" }}
       >
-        <div className="absolute inset-0   bg-opacity-100 shadow-lg flex flex-col lg:flex-row justify-between items-center px-10 py-12">
+        <div className="absolute inset-0   bg-opacity-100 shadow-lg flex flex-col lg:flex-row justify-between items-center px-10 py-6">
           <div className="text-white ">
-            <h2 className="font-semibold text-2xl lg:text-3xl text-wrap font-serif text-yellow-300 pt-4 lg:text-left px-4 lg:px-24">
+            <h2 className="font-semibold text-xl lg:text-3xl text-wrap  lg:pt-4 lg:text-left px-4 lg:px-24">
               Learn Noorani Qaida Online
             </h2>
-            <p className="text-xl text-justify font-serif text-white pt-4 lg:text-left px-4 lg:px-24">
+            <p className="lg:text-xl text-xs text-justify  text-white lg:pt-4 pt-0 lg:text-left px-4 lg:px-24">
               Learn Online Noorani Qaida Course with expert tutors.
                Join our flexible Quran classes to master Noorani Qaida
               with Tajweed in Urdu, Arabic, and English.
@@ -28,13 +28,14 @@ export default function NooraniQaidaCourse() {
         </div>
       </div>
 
-      <div className="flex flex-wrap justify-center gap-8 px-2 mt-16">
-        <div className="bg-gray-100 shadow-md p-6 w-full md:w-2/3 sm:w-1/4 rounded-md">
-          <h1 className="text-2xl text-cyan-500 font-bold mb-4">
+      <div style={{ fontFamily: 'Roboto, sans-serif' }}
+      className="flex flex-wrap justify-center gap-8 px-4 mt-8 lg:mt-16">
+        <div className="bg-white border-1 border-gray-200 shadow-md p-6 w-full md:w-2/3 sm:w-1/4 rounded-md">
+          <h1 className="lg:text-2xl text-xl text-cyan-500 font-bold mb-4">
             Learn Noorani Qaida Online – Join Our Course in the USA, UK, Canada,
             & Europe
           </h1>
-          <p className="text-justify  text-gray-700">
+          <p className="text-justify text-sm text-gray-700">
             Welcome to Darul Ilm Online Quran Academy! Our online Noorani Qaida
             course is designed to help beginners, children, and adults learn
             Quranic reading from scratch. With expert guidance, you’ll master
@@ -42,11 +43,11 @@ export default function NooraniQaidaCourse() {
             rules. Whether you’re in the USA, UK, Canada, or Europe, our course
             provides a structured and enjoyable approach to learning the Quran.
           </p>
-          <h1 className="text-2xl text-cyan-500 font-bold my-6">
+          <h1 className="lg:text-2xl text-xl text-cyan-500 font-bold my-6">
             Want to Learn Noorani Qaida?
           </h1>
 
-          <p className="text-justify my-2  text-gray-700">
+          <p className="text-justify text-sm my-2  text-gray-700">
             Great news! Darul Ilm Online Quran Academy offers an excellent
             online course for beginners, designed to help you or your child
             master Noorani Qaida with ease. Our experienced teachers guide you
@@ -58,11 +59,11 @@ export default function NooraniQaidaCourse() {
             reading the Noorani Qaida with confidence!.
           </p>
 
-          <h1 className="text-2xl text-cyan-500 font-bold my-6">
+          <h1 className="lg:text-2xl text-xl text-cyan-500 font-bold my-6">
             Why Choose Noorani Qaida Course?
           </h1>
 
-          <p className="text-justify my-2  text-gray-700">
+          <p className="text-justify text-sm my-2  text-gray-700">
             The Noorani Qaida course is the perfect foundation for anyone
             starting their journey to read the Quran correctly. It provides a
             structured approach to learning Arabic letters and their
@@ -75,7 +76,7 @@ export default function NooraniQaidaCourse() {
             Qaida course today!
           </p>
 
-          <button className="w-1/3 bg-cyan-400 hover:animate-bounce hover:bg-cyan-700 text-white py-3 my-4 rounded-md font-semibold">
+          <button className="lg:w-1/3 w-full bg-cyan-400 hover:animate-bounce hover:bg-cyan-700 text-white py-3 my-4 rounded-md font-semibold">
             Get Enrolled Now
           </button>
         </div>
@@ -84,7 +85,7 @@ export default function NooraniQaidaCourse() {
 
        <ClassInfo />
 
-        <div className="flex flex-col lg:flex-row flex-wrap justify-center items-stretch gap-6 mt-10 px-2">
+        <div className="flex flex-col lg:flex-row flex-wrap justify-center items-stretch gap-6 mt-6 px-2">
           <div className="flex mx-auto border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 items-center bg-white p-4 rounded-md">
             <div className="mx-2 text-start">
               <p className="text-cyan-500 font-semibold text-lg">
@@ -117,21 +118,21 @@ export default function NooraniQaidaCourse() {
         </div>
 
         <div className="bg-white border-2 border-gray-300  shadow-md p-6 w-full md:w-10/12 sm:w-1/4 rounded-md">
-          <h1 className="text-2xl text-cyan-500 font-bold mb-4">
+          <h1 className="lg:text-2xl text-xl text-cyan-500 font-bold mb-4">
             Learn Noorani Qaida Online in the USA
           </h1>
-          <p className="text-justify  text-gray-700">
+          <p className="text-justify text-sm  text-gray-700">
             Are you based in the USA and eager to learn Noorani Qaida? Our
             online course is perfect for students across different time zones in
             the USA. Whether you’re a busy parent looking to teach your child or
             an adult starting your Quranic journey, we offer flexible class
             schedules and expert teachers.
           </p>
-          <h1 className="text-2xl text-cyan-500 font-bold my-6">
+          <h1 className="lg:text-2xl text-xl text-cyan-500 font-bold my-6">
             Learn Noorani Qaida Online in the UK
           </h1>
 
-          <p className="text-justify my-2  text-gray-700">
+          <p className="text-justify my-2 text-sm text-gray-700">
             Join our Noorani Qaida course online in the UK! Designed for
             beginners, our program helps you or your child master the Arabic
             alphabet and basic Quranic pronunciation in a fun and engaging way.
@@ -139,11 +140,11 @@ export default function NooraniQaidaCourse() {
             lesson, making Quranic learning accessible for all ages.
           </p>
 
-          <h1 className="text-2xl text-cyan-500 font-bold my-6">
+          <h1 className="lg:text-2xl text-sm text-cyan-500 font-bold my-6">
             Learn Noorani Qaida Online in Canada
           </h1>
 
-          <p className="text-justify my-2  text-gray-700">
+          <p className="text-justify text-sm my-2  text-gray-700">
             Discover the joy of learning the Noorani Qaida course online, right
             from Canada! Whether you’re a beginner or looking to refine your
             skills, Darul Ilm Online Quran Academy offers live, interactive
@@ -153,7 +154,11 @@ export default function NooraniQaidaCourse() {
         </div>
 
         {/* Why Academy Section */}
-        <WhyUs />
+        
+      </div>
+
+      <div className="px-0 w-full">
+      <WhyUs />
       </div>
 
       <div className="flex flex-wrap justify-center gap-8 px-4 mt-16">

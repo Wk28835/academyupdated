@@ -20,7 +20,7 @@ const Faqs = () => {
       ),
     },
     {
-      question: "How Long Will It Take to Learn Quran, Arabic, or Islamic Studies?",
+      question: "How Long Will It Take to Arabic or Islamic Studies?",
       answer: (
         <p className="px-2">
           • Duration varies by student. We customize your learning to fit your

@@ -31,7 +31,7 @@ const JoinForm = () => {
             ></textarea>
             <button
               type="submit"
-              className="w-full bg-cyan-600 hover:bg-cyan-700 text-white py-3 rounded-md font-semibold"
+              className="w-full bg-[#1AB0BA] hover:bg-cyan-700 text-white py-3 rounded-md font-semibold"
             >
               Apply Now
             </button>

@@ -52,35 +52,52 @@ const WhyUs = () => {
   ];
 
   return (
-    <header className="bg-white shadow-md">
-      <div className="text-center mt-20 px-4">
-        <h1 className="text-black text-2xl lg:text-3xl font-bold">
-          Why <span className="text-[#1AB0BA] font-semibold">Darul Ilm Online Quran</span> Academy
+    <header
+      className=" relative bg-cover bg-center bg-no-repeat py-16 "
+      style={{
+        backgroundImage: "url('/background2.jpeg')"  // ✅ Use your background image here
+      }}>
+
+        <div className="absolute inset-0 opacity-40 z-0"></div>
+      <div className="relative z-10 text-center px-4">
+      
+        <div
+        style={{ fontFamily: "Poppins, sans-serif" }}
+        className="text-center px-4" >
+        <h1 className="text-black text-lg lg:text-3xl font-bold mb-6">
+          Why{" "}
+          <span className="text-[#1AB0BA] font-semibold">
+            Darul Ilm Quran
+          </span>{" "}
+          Academy
         </h1>
 
-       <div className="flex flex-wrap justify-center gap-6 mt-10">
-  {features.map((feature, i) => (
-    <div
-      key={i}
-      className="flex items-center shadow-2xl bg-white p-2 rounded-md w-full sm:w-[100%] md:w-[45%] lg:w-[30%] max-w-xs"
-    >
-      <div className=" min-w-[40px] min-h-[40px]">
-        <Image
-          src={feature.image}
-          alt={feature.title}
-          width={100}
-          height={40}
-          className="object-contain"
-        />
+        <div className="flex w-full flex-wrap px-2 justify-center gap-3 lg:gap-6 mt-2 ">
+          {features.map((feature, i) => (
+            <div
+              key={i}
+              className="flex flex-col items-center shadow-sm bg-white p-4 w-full sm:w-full md:w-[45%] lg:w-[30%] max-w-full
+               hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400"
+            >
+              <div className="lg:min-w-[60px] min-h-[40px] mb-2">
+                <Image
+                  src={feature.image}
+                  alt={feature.title}
+                  width={60}
+                  height={60}
+                  className="object-contain w-[80px]"
+                />
+              </div>
+              <div className="text-center">
+                <p className="font-semibold text-black pb-2 text-base">
+                  {feature.title}
+                </p>
+                <p className="text-sm my-2 text-black">{feature.desc}</p>
+              </div>
+            </div>
+          ))}
+        </div>
       </div>
-      <div className="ml-4 text-start">
-        <p className="font-medium text-black pb-4 text-base">{feature.title}</p>
-        <p className="text-sm  text-black">{feature.desc}</p>
-      </div>
-    </div>
-  ))}
-</div>
-
       </div>
     </header>
   );
