@@ -10,19 +10,19 @@ import Faqs from "../components/Faqs";
 export default function Home() {
  
   return (
-    <div className="w-full px-2 sm:px-4">
+    <div className="w-full ">
       {/* Hero Section */}
       <div
-        className="relative w-full  min-h-[600px] lg:min-h-[450px] bg-cover bg-center"
+        className="relative w-full   min-h-[600px] lg:min-h-[450px] bg-cover bg-center"
         style={{ backgroundImage: "url('/bg.jpg')" }} >
         <div
           className="absolute inset-0  bg-opacity-40 rounded-md flex flex-col lg:flex-row sm:flex-row lg:justify-between  items-center px-4 sm:px-6 py-2 gap-2 sm:gap-5"
           style={{ backgroundColor: "#1AB0BA", opacity: "90%" }}>
           <div className="text-white w-full lg:max-w-xl text-center px-2 sm:mx-0">
-            <h2 className="font-semibold text-white py-2 text-base font-sans sm:text-2xl pt-2">
+            <h2 style={{ fontFamily: 'Poppins, sans-serif' }} className="font-semibold text-white py-2 text-base sm:text-2xl pt-2">
               Welcome to Darul Ilm Online Quran Academy
             </h2>
-            <h1 className="pt-1 sm:pt-4 text-white font-bold font-serif text-lg sm:text-3xl lg:text-4xl">
+            <h1 style={{ fontFamily: 'Roboto, sans-serif' }} className="pt-1 sm:pt-4 text-white font-bold text-lg sm:text-3xl lg:text-4xl">
               Join Free Trial Classes
             </h1>
 
@@ -35,7 +35,7 @@ export default function Home() {
           
 
           <div className="w-full lg:max-w-xl sm:max-w-md">
-            <form className="space-y-4 sm:space-y-3">
+            <form style={{ fontFamily: 'Poppins, sans-serif' }} className="space-y-4 sm:space-y-3">
               <input
                 style={{ backgroundColor: "#1AB0BA" }}
                 type="text"
@@ -82,7 +82,7 @@ export default function Home() {
         <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black">
           Explore Our Courses
         </h1>
-        <p className="pt-3 font-sans sm:pt-4 text-black pb-4 sm:pb-6 text-sm sm:text-base md:text-base">
+        <p className="pt-3  sm:pt-4 text-black pb-4 sm:pb-6 text-sm sm:text-base md:text-base">
           Explore our online courses, including Noorani Qaida, Quran Reading,
           Tajweed, Tafseer, Memorization, Arabic Language, and Islamic Studies.
         </p>

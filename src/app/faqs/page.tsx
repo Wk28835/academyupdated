@@ -48,8 +48,7 @@ export default function Reviews() {
         className="relative rounded-md w-full h-[320px] bg-cover bg-center"
         style={{ backgroundImage: "url('/books.jpg')" }}
       >
-        <div className="absolute inset-0 bg-opacity-100 shadow-lg flex justify-start items-center
- px-4 py-2">
+        <div className="absolute inset-0 bg-opacity-100 shadow-lg flex justify-start items-center px-4 py-2">
           <div className="text-white ">
             <h2 className="font-bold  text-3xl text-white pt-4 lg:text-left px-2 lg:px-24">
               FAQS
