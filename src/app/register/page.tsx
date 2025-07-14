@@ -1,0 +1,38 @@
+import JoinForm from "@/components/JoinForm"
+
+export default function Register() {
+  return (
+
+    <div>
+    <div className="w-full mx-0 p-1">
+      <div
+        className="relative rounded-md w-full h-[180px] bg-cover bg-center"
+        style={{ backgroundImage: "url('/books.jpg')" }}
+      >
+        <div className="absolute inset-0 bg-opacity-100 shadow-lg flex justify-start items-center px-4 py-2">
+          <div className="text-white ">
+            <h2 className="font-bold text-2xl  lg:text-3xl text-white pt-4 lg:text-left px-2 lg:px-24">
+              Join Us
+            </h2>
+          </div>
+        </div>
+      </div>
+
+      {/* Register Now */}
+      
+    </div>
+
+    <div className="">
+      
+      <JoinForm/>
+      </div>
+    
+
+        <div className="pt-10">
+          <h1 className="text-center text-xs text-gray-500 ">
+            Copyright © 2025 Darul Quran Academy |
+          </h1>
+        </div>
+    </div>
+  );
+}

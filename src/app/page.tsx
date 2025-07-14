@@ -1,10 +1,9 @@
 "use client";
 import Image from "next/image";
 import WhyUs from "../components/whyUs"
-import StudentReview from "../components/StudentReview"
+import Link from "next/link";
 import Pricing from "../components/Pricing"
-import JoinForm from "../components/JoinForm";
-import Faqs from "../components/Faqs";
+
 
 
 export default function Home() {
@@ -13,69 +12,51 @@ export default function Home() {
     <div className="w-full ">
       {/* Hero Section */}
       <div
-        className="relative w-full   min-h-[600px] lg:min-h-[450px] bg-cover bg-center"
-        style={{ backgroundImage: "url('/bg.jpg')" }} >
-        <div
-          className="absolute inset-0  bg-opacity-40 rounded-md flex flex-col lg:flex-row sm:flex-row lg:justify-between  items-center px-4 sm:px-6 py-2 gap-2 sm:gap-5"
-          style={{ backgroundColor: "#1AB0BA", opacity: "90%" }}>
-          <div className="text-white w-full lg:max-w-xl text-center px-2 sm:mx-0">
-            <h2 style={{ fontFamily: 'Poppins, sans-serif' }} className="font-semibold text-white py-2 text-base sm:text-2xl pt-2">
-              Welcome to Darul Ilm Online Quran Academy
-            </h2>
-            <h1 style={{ fontFamily: 'Roboto, sans-serif' }} className="pt-1 sm:pt-4 text-white font-bold text-lg sm:text-3xl lg:text-4xl">
-              Join Free Trial Classes
-            </h1>
+  className="relative w-full min-h-[300px] lg:min-h-[450px] bg-cover bg-center"
+  style={{ backgroundImage: "url('/bg.jpg')" }}
+>
+  <div
+    className="absolute inset-0 bg-opacity-40 rounded-md flex flex-col justify-center items-center px-4 sm:px-6 py-2 gap-4"
+    style={{ backgroundColor: "#1AB0BA", opacity: "90%" }}
+  >
+    <div className="text-white w-full lg:max-w-xl text-center px-2">
+      <h2
+        style={{ fontFamily: 'Poppins, sans-serif' }}
+        className="font-semibold text-white py-2 text-base lg:text-3xl sm:text-2xl pt-2"
+      >
+        Welcome to Darul Ilm Online Quran Academy
+      </h2>
 
-           <div className="w-full place-items-center py-1">
-               <Image 
-               src={"/register.png"} alt="Register Now" width={600} height={300}    />
-          </div>
-
-          </div>
-          
-
-          <div className="w-full lg:max-w-xl sm:max-w-md">
-            <form style={{ fontFamily: 'Poppins, sans-serif' }} className="space-y-4 sm:space-y-3">
-              <input
-                style={{ backgroundColor: "#1AB0BA" }}
-                type="text"
-                placeholder="Your Name"
-                className="w-full border border-white rounded-md p-2 sm:p-3 placeholder-white text-white text-sm sm:text-base"
-              />
-              <input
-                style={{ backgroundColor: "#1AB0BA", opacity: "90%" }}
-                type="email"
-                placeholder="Email Address"
-                className="w-full border border-white rounded-md p-2 sm:p-3 placeholder-white text-white text-sm sm:text-base"
-              />
-              <input
-                style={{ backgroundColor: "#1AB0BA", opacity: "90%" }}
-                type="text"
-                placeholder="Contact No"
-                className="w-full border border-white rounded-md p-2 sm:p-3 placeholder-white text-white text-sm sm:text-base"
-              />
-              <input
-                style={{ backgroundColor: "#1AB0BA", opacity: "90%" }}
-                type="text"
-                placeholder="Your Country"
-                className="w-full border border-white rounded-md p-2 sm:p-3 placeholder-white text-white text-sm sm:text-base"
-              />
-              <textarea
-                style={{ backgroundColor: "#1AB0BA", opacity: "90%" }}
-                rows={4}
-                placeholder="Your Message"
-                className="w-full border border-white rounded-md p-2 sm:p-3 placeholder-white text-white text-sm sm:text-base"
-              ></textarea>
-              <button
-                type="submit"
-                className="w-full bg-white text-black hover:bg-gray-100 py-2 sm:py-2 rounded-md transition text-sm sm:text-base"
-              >
-                Apply Now
-              </button>
-            </form>
-          </div>
-        </div>
+      <div className="w-full flex justify-center py-2">
+        <Image
+          src="/register.png"
+          alt="Register Now"
+          width={800}
+          height={300}
+          className="w-full lg:w-[800px]  object-contain"
+        />
       </div>
+
+      {/* Forms  */}
+
+      <div className="flex flex-col sm:flex-row justify-center gap-4 mt-4">
+        <Link href="/register">
+          <button className="w-full cursor-pointer sm:w-auto px-6 bg-white text-black hover:bg-cyan-400 py-2 rounded-md transition text-sm sm:text-base">
+            Register Now
+          </button>
+        </Link>
+
+        <Link href="/FreeTrial">
+          <button className="w-full cursor-pointer sm:w-auto px-6 bg-white text-black hover:bg-cyan-400 py-2 rounded-md transition text-sm sm:text-base">
+            Free Trial
+          </button>
+        </Link>
+      </div>
+
+
+    </div>
+  </div>
+</div>
 
       {/* Courses Header */}
       <div className="mt-16 pb-8 shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 sm:mt-16 mx-auto w-full max-w-screen-lg text-center px-4 sm:px-6">
@@ -161,48 +142,23 @@ export default function Home() {
       {/* Why Academy Section */}
       <WhyUs />
 
-      {/* student review section */}
-      <div className="max-w-6xl  mt-8 mx-auto p-6">
-        <h1 className="text-3xl font-bold text-gray-800 mb-1 lg:mb-8 text-center">
-          Student&apos;s Reviews
-        </h1>
-            <StudentReview />
-      </div>  
+    
+       
 
 
       {/*packages section */}
-      <div className="mt-16 px-4 text-center">
+      <div className="mt-8 px-4 text-center">
         <h1 className="lg:text-4xl text-xl font-bold text-black mb-8">
-          Packages for Weekdays Lessons
+          Package Plans
         </h1>
 
        <Pricing />
 
       </div>
 
-      {/* Terms and Trial Form */}
-      <div className="flex text-black  flex-wrap justify-center gap-8 px-4 mt-16">
-        <div className="bg-white shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 p-6 w-full md:w-[600px] rounded-md">
-          <h1 className="lg:text-2xl text-lg font-bold mb-4">Terms & Conditions</h1>
-          <p className="text-justify text-gray-700">
-            <b>Darul Ilm Quran Academy</b> maintains the privacy of both
-            students and teachers. All personal information is treated as
-            confidential.
-          </p>
+          
 
-          <Faqs />
-        </div>
-
-        <div className="bg-white shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 p-6 w-full md:w-[400px] rounded-md">
-          <h1 className="text-2xl font-bold mb-4">Join Free Trial Classes</h1>
-          <p className="mb-4 text-gray-700">
-            Male & Female Teachers Are Available
-          </p>
-          <JoinForm />
-        </div>
-      </div>
-
-      <div className="pt-10">
+      <div className="py-10">
         <h1 className="text-center text-xs text-gray-500 ">
           Copyright © 2025 Darul Quran Academy |
         </h1>

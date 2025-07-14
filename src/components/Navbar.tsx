@@ -58,9 +58,7 @@ const Navbar = () => {
               <button className="flex items-center hover:text-blue-500">
                 Courses
                 <FaChevronDown
-                  className={`ml-1 transition-transform duration-200 ${
-                    openList ? "rotate-180" : ""
-                  }`}
+                 
                 />
               </button>
               {openList && (
@@ -96,9 +94,17 @@ const Navbar = () => {
             <Link href="/contact_us" className="hover:text-blue-500">
               Contact Us
             </Link>
+               <Link href="/aboutUs" className="hover:text-blue-500">
+              About Us
+            </Link>
             <Link href="/islamic_blog" className="hover:text-blue-500">
               Islamic Blog
             </Link>
+            
+            <Link href="/terms" className="hover:text-blue-500">
+              Terms & Conditions
+            </Link>
+         
           </nav>
 
           {/* Mobile Hamburger */}
@@ -122,7 +128,7 @@ const Navbar = () => {
         {/* Mobile Menu */}
         {isOpen && (
           <div className="md:hidden px-4 pb-4 text-black">
-            <ul className="flex flex-col space-y-3 text-sm">
+            <ul className="flex flex-col  space-y-3 text-sm">
               <li>
                 <Link href="/" onClick={() => setIsOpen(false)}>
                   Home
@@ -141,7 +147,7 @@ const Navbar = () => {
                   />
                 </button>
                 {openList && (
-                  <ul className="pl-4 mt-2 space-y-1 bg-white rounded shadow">
+                  <ul className="pl-10 list-disc mt-2 space-y-1 bg-white rounded shadow">
                     {[
                       { href: "/courses/noorani", label: "Noorani Qaida Course" },
                       { href: "/courses/reading", label: "Quran Reading Course" },
@@ -187,10 +193,20 @@ const Navbar = () => {
                 <Link href="/contact_us" onClick={() => setIsOpen(false)}>
                   Contact Us
                 </Link>
+              </li> 
+              <li>
+                <Link href="/aboutUs" onClick={() => setIsOpen(false)}>
+                  AboutUs
+                </Link>
               </li>
               <li>
                 <Link href="/islamic_blog" onClick={() => setIsOpen(false)}>
                   Islamic Blog
+                </Link>
+              </li>
+              <li>
+                <Link href="/terms" onClick={() => setIsOpen(false)}>
+                  Terms & Conditions
                 </Link>
               </li>
             </ul>
