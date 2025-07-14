@@ -15,7 +15,7 @@ const Pricing = () => {
           ].map((pkg, idx) => (
             <div
               key={idx}
-              className="bg-gray-100 text-black w-full lg:w-[260px] rounded-md p-4 shadow"
+              className="bg-gray-100 text-black w-full  lg:w-[260px] rounded-md p-4 shadow"
             >
               <div className="bg-[#13B4B6] text-white">
               <h1 className=" text-xl font-semibold lg:text-2xl text-center pl-4 lg:text-center py-2 rounded">
@@ -27,6 +27,7 @@ const Pricing = () => {
               </div>
               <p className="lg:text-center text-center pt-6 font-bold text-xl">{pkg.price}</p>
               <p className="lg:text-center text-center py-4">Per Month</p>
+              <div className="place-items-center">
               <p className="flex text-center pt-2">
                 <BsCheckCircleFill className="text-[#13B4B6] w-4 mx-1 h-6" />{" "}
                 {pkg.Monthly_classes} Classes per month
@@ -36,6 +37,7 @@ const Pricing = () => {
                 <BsCheckCircleFill className="text-[#13B4B6] w-4 mx-1 h-6" /> 30
                 minutes each lesson
               </p>
+              </div>
               
             </div>
           ))}

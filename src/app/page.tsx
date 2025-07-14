@@ -22,7 +22,7 @@ export default function Home() {
     <div className="text-white w-full lg:max-w-xl text-center px-2">
       <h2
         style={{ fontFamily: 'Poppins, sans-serif' }}
-        className="font-semibold text-white py-2 text-base lg:text-3xl sm:text-2xl pt-2"
+        className="font-semibold text-white py-2 text-xl lg:text-3xl sm:text-2xl pt-2"
       >
         Welcome to Darul Ilm Online Quran Academy
       </h2>
@@ -41,13 +41,13 @@ export default function Home() {
 
       <div className="flex flex-col sm:flex-row justify-center gap-4 mt-4">
         <Link href="/register">
-          <button className="w-full cursor-pointer sm:w-auto px-6 bg-white text-black hover:bg-cyan-400 py-2 rounded-md transition text-sm sm:text-base">
+          <button className="w-full font-bold cursor-pointer sm:w-auto px-6 bg-white text-black hover:bg-cyan-400 py-2 rounded-md transition text-sm sm:text-base">
             Register Now
           </button>
         </Link>
 
         <Link href="/FreeTrial">
-          <button className="w-full cursor-pointer sm:w-auto px-6 bg-white text-black hover:bg-cyan-400 py-2 rounded-md transition text-sm sm:text-base">
+          <button className="w-full font-bold cursor-pointer sm:w-auto px-6 bg-white text-black hover:bg-cyan-400 py-2 rounded-md transition text-sm sm:text-base">
             Free Trial
           </button>
         </Link>
