@@ -53,7 +53,7 @@ const StudentReview = () => {
         {/* Arrows */}
         <button
           onClick={prevReview}
-          className="absolute top-1/2 left-0 transform -translate-y-1/2 bg-transparent text-5xl text-cyan-400 hover:text-black z-20"
+          className="absolute top-1/2 left-0 transform -translate-y-1/2 bg-transparent text-5xl text-teal-400 hover:text-black z-20"
           aria-label="Previous reviews"
         >
           ‹
@@ -61,7 +61,7 @@ const StudentReview = () => {
 
         <button
           onClick={nextReview}
-          className="absolute top-1/2 right-0 transform -translate-y-1/2 bg-transparent text-5xl text-cyan-400 hover:text-black z-20"
+          className="absolute top-1/2 right-0 transform -translate-y-1/2 bg-transparent text-5xl text-teal-400 hover:text-black z-20"
           aria-label="Next reviews"
         >
           ›
@@ -84,7 +84,7 @@ const StudentReview = () => {
                 <p className="mb-4 leading-relaxed">
                   {reviews[currentIndex].content}
                 </p>
-                <div className="text-xs font-semibold text-gray-400">
+                <div className="text-base font-semibold text-gray-400">
                   {reviews[currentIndex].time}
                 </div>
               </div>
@@ -92,7 +92,7 @@ const StudentReview = () => {
             <div className="font-semibold lg:mt-2 mt-4 text-center">
               {reviews[currentIndex].student}
             </div>
-            <div className="text-sm text-center text-gray-400">
+            <div className="text-base text-center text-gray-400">
               {reviews[currentIndex].role}
             </div>
           </div>
@@ -112,7 +112,7 @@ const StudentReview = () => {
                 <p className="mb-4 leading-relaxed">
                   {reviews[(currentIndex + 1) % reviews.length].content}
                 </p>
-                <div className="text-xs font-semibold text-gray-400">
+                <div className="text-base font-semibold text-gray-400">
                   {reviews[(currentIndex + 1) % reviews.length].time}
                 </div>
               </div>
@@ -120,7 +120,7 @@ const StudentReview = () => {
             <div className="font-semibold lg:mt-2 mt-4 text-center">
               {reviews[(currentIndex + 1) % reviews.length].student}
             </div>
-            <div className="text-sm text-center text-gray-400">
+            <div className="text-base text-center text-gray-400">
               {reviews[(currentIndex + 1) % reviews.length].role}
             </div>
           </div>

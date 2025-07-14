@@ -1,5 +1,6 @@
 "use client";
 
+import Footer from "@/components/Footer";
 import { useState } from "react";
 import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 
@@ -58,7 +59,7 @@ export default function Reviews() {
       </div>
 
       <div className="pt-12">
-        <h1 className="px-2 text-3xl text-center text-[#13B4B6] font-bold">
+        <h1 className="px-2 text-3xl text-center text-teal-500 font-bold">
           FREQUENTLY ASKED QUESTIONS
         </h1>
         <div className="bg-yellow-400 w-28 h-1 m-2 mx-auto"></div>
@@ -95,11 +96,7 @@ export default function Reviews() {
       </section>
 
       <div className="bg-gray-200 w-full mt-10 h-1 m-8 mx-auto"></div>
-      <div className="pt-6">
-        <h1 className="text-center text-xs text-gray-500">
-          Copyright © 2025 Darul Ilm Online Quran Academy |
-        </h1>
-      </div>
+      <Footer/>
     </div>
   );
 }

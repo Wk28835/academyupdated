@@ -8,7 +8,7 @@ const ClassInfo = () => {
       
   <div style={{ fontFamily: '"Roboto Condensed", sans-serif' }}
    className="bg-white text-black shadow-md p-6 w-full md:w-[400px] rounded-md">
-          <p className="text-base mb-4">
+          <p className="text-lg mb-4">
             <span className = "font-semibold"> Class Type:</span> One-on-One Classes
           </p>
 
@@ -16,19 +16,19 @@ const ClassInfo = () => {
             <span className="font-semibold">Class Duration:</span> 30 Minutes Per Student
           </p>
 
-           <p className="text-base  mb-4">
+           <p className="text-lg  mb-4">
             <span className = "font-semibold">Time Period:</span> Flexible, based on the student’s availability
           </p>
 
-          <p className="text-base  mb-4">
+          <p className="text-lg  mb-4">
             <span className = "font-semibold">Age Level:</span>Minmum 05 Years
           </p>
 
-          <p className="text-base  mb-4">
+          <p className="text-lg  mb-4">
             <span className = "font-semibold">Gender:</span>Both Male and Female
           </p>
 
-          <p className="text-base  mb-4">
+          <p className="text-lg  mb-4">
             <span className = "font-semibold">Language:</span>English, Urdu, Hindi, Pashto
           </p>
 

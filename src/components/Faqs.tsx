@@ -64,7 +64,7 @@ const Faqs = () => {
               } text-gray-700`}
             >
               {openIndex === index && (
-                <div className="space-y-2 text-sm sm:text-base">
+                <div className="space-y-2 text-base sm:text-base">
                   {item.answer}
                 </div>
               )}

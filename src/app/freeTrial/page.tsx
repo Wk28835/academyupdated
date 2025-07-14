@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import FreeTrial from "@/components/FreeTrial";
 
 
@@ -29,11 +30,7 @@ export default function FreeTrialForm() {
   </div>
     
 
-        <div className="py-8">
-          <h1 className="text-center text-xs text-gray-500 ">
-            Copyright © 2025 Darul Quran Academy |
-          </h1>
-        </div>
+        <Footer/>
     </div>
   );
 }

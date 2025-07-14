@@ -1,5 +1,6 @@
 import { MdEmail } from "react-icons/md"; // Material Design
 import Image from "next/image";
+import Footer from "@/components/Footer";
 
 export default function Contact() {
   return (
@@ -32,7 +33,7 @@ export default function Contact() {
 
       <div className="flex flex-wrap justify-center gap-8 px-4 mt-10 ">
         {/* form */}
-        <div className="bg-white shadow-sm shadow-cyan-400 hover:shadow-lg hover:shadow-cyan-500 rounded-md p-6 w-full md:w-[600px]">
+        <div className="bg-white shadow-sm shadow-teal-400 hover:shadow-lg hover:shadow-teal-500 rounded-md p-6 w-full md:w-[600px]">
           <h1 className="mb-4 text-gray-700  text-center font-semibold text-xl lg:text-2xl">
             Get Your Free
           </h1>
@@ -69,15 +70,15 @@ export default function Contact() {
 
             <button
               type="submit"
-              className="w-full bg-[#13B4B6]  hover:bg-cyan-700 text-white py-3 rounded-md font-semibold"
+              className="w-full bg-teal-500 hover:bg-teal-700 text-white py-3 rounded-md font-semibold"
             >
               Apply Now
             </button>
           </form>
         </div>
 
-        <div className="bg-white shadow-sm rounded-md p-6 w-full md:w-[600px] shadow-cyan-400 hover:shadow-lg hover:shadow-cyan-500">
-          <div className="border-2 border-[#13B4B6] pb-8">
+        <div className="bg-white shadow-sm rounded-md p-6 w-full md:w-[600px] shadow-teal-400 hover:shadow-lg hover:shadow-teal-500">
+          <div className="border-2 border-teal-500 pb-8">
             <div className="lg:flex flex-col place-items-center ">
               <Image
                 src="/usa.png"
@@ -87,7 +88,7 @@ export default function Contact() {
                 height={16}
               />
               <div>
-                <h2 className="text-justify lg:text-2xl text-xl font-bold   text-[#13B4B6] ">
+                <h2 className="text-justify lg:text-2xl text-xl font-bold   text-teal-500 ">
                   USA CONTACT
                 </h2>
                 <p className=" pl-2 text-lg lg:text-xl text-gray-700 font-semibold">
@@ -97,7 +98,7 @@ export default function Contact() {
             </div>
           </div>
 
-          <div className="border-2 mt-5 border-[#13B4B6] pb-8">
+          <div className="border-2 mt-5 text-teal-500 pb-8">
             <div className="lg:flex flex-col place-items-center ">
               <Image
                 src="/uk.png"
@@ -107,7 +108,7 @@ export default function Contact() {
                 height={16}
               />
               <div>
-                <h2 className="text-justify text-xl lg:text-2xl font-bold   text-[#13B4B6] ">
+                <h2 className="text-justify text-xl lg:text-2xl font-bold   text-teal-500 ">
                   UK CONTACT
                 </h2>
                 <p className=" pl-2 text-lg text-gray-700 font-semibold">
@@ -117,11 +118,11 @@ export default function Contact() {
             </div>
           </div>
 
-          <div className="border-2 mt-5 border-[#13B4B6] pb-8">
+          <div className="border-2 mt-5 border-teal-500 pb-8">
             <div className="lg:flex flex-col pt-2 place-items-center ">
-              <MdEmail className="text-cyan-600 mx-2 text-4xl" />
+              <MdEmail className="text-teal-500 mx-2 text-4xl" />
               <div>
-                <h2 className="text-center text-xl lg:text-2xl font-bold    text-[#13B4B6] ">
+                <h2 className="text-center text-xl lg:text-2xl font-bold    text-teal-500 ">
                   Email
                 </h2>
                 <p className=" lg:pl-10 pl-2 lg:text-xl text-base text-gray-700 font-bold">
@@ -135,11 +136,7 @@ export default function Contact() {
         {/* Form Card */}
       </div>
 
-      <div className="pt-10">
-        <h1 className="text-center text-xs text-gray-500 ">
-          Copyright © 2025 Darul Ilm Online Quran Academy |
-        </h1>
-      </div>
+      <Footer/>
     </div>
   );
 }

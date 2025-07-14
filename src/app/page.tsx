@@ -3,6 +3,7 @@ import Image from "next/image";
 import WhyUs from "../components/whyUs"
 import Link from "next/link";
 import Pricing from "../components/Pricing"
+import Footer from "@/components/Footer";
 
 
 
@@ -16,13 +17,11 @@ export default function Home() {
   style={{ backgroundImage: "url('/bg.jpg')" }}
 >
   <div
-    className="absolute inset-0 bg-opacity-40 rounded-md flex flex-col justify-center items-center px-4 sm:px-6 py-2 gap-4"
-    style={{ backgroundColor: "#1AB0BA", opacity: "90%" }}
-  >
+    className="absolute bg-teal-400 opacity-85 inset-0 bg-opacity-40 rounded-md flex flex-col justify-center items-center px-4 sm:px-6 py-2 gap-4" >
     <div className="text-white w-full lg:max-w-xl text-center px-2">
       <h2
         style={{ fontFamily: 'Poppins, sans-serif' }}
-        className="font-semibold text-white py-2 text-xl lg:text-3xl sm:text-2xl pt-2"
+        className="font-bold text-white py-2 text-2xl lg:text-3xl sm:text-2xl pt-2"
       >
         Welcome to Darul Ilm Online Quran Academy
       </h2>
@@ -37,17 +36,17 @@ export default function Home() {
         />
       </div>
 
-      {/* Forms  */}
+      {/* Forms button  */}
 
-      <div className="flex flex-col sm:flex-row justify-center gap-4 mt-4">
+      <div className="flex flex-col sm:flex-row justify-center gap-3 mt-1">
         <Link href="/register">
-          <button className="w-full font-bold cursor-pointer sm:w-auto px-6 bg-white text-black hover:bg-cyan-400 py-2 rounded-md transition text-sm sm:text-base">
+          <button className="w-full font-bold cursor-pointer sm:w-auto px-6 bg-white text-black hover:bg-teal-500 py-2 rounded-md transition text-lg sm:text-base">
             Register Now
           </button>
         </Link>
 
-        <Link href="/FreeTrial">
-          <button className="w-full font-bold cursor-pointer sm:w-auto px-6 bg-white text-black hover:bg-cyan-400 py-2 rounded-md transition text-sm sm:text-base">
+        <Link href="/freeTrial">
+          <button className="w-full font-bold cursor-pointer sm:w-auto px-6 bg-white text-black hover:bg-teal-500 py-2 rounded-md transition text-lg sm:text-base">
             Free Trial
           </button>
         </Link>
@@ -59,11 +58,11 @@ export default function Home() {
 </div>
 
       {/* Courses Header */}
-      <div className="mt-16 pb-8 shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 sm:mt-16 mx-auto w-full max-w-screen-lg text-center px-4 sm:px-6">
+      <div className="mt-16 pb-8 shadow-sm hover:shadow-md hover:shadow-teal-500 shadow-teal-400 sm:mt-16 mx-auto w-full max-w-screen-lg text-center px-4 sm:px-6">
         <h1 className="text-2xl pt-4 sm:text-3xl md:text-4xl font-bold text-black">
           Explore Our Courses
         </h1>
-        <p className="pt-3 text-ellipsis sm:pt-4pb-4 sm:pb-6 text-sm sm:text-base md:text-base">
+        <p className="pt-3 text-ellipsis sm:pt-4pb-4 sm:pb-6 text-base sm:text-base md:text-base">
           Explore our online courses, including Noorani Qaida, Quran Reading,
           Tajweed, Tafseer, Memorization, Hadith, Arabic Language, and Islamic Studies.
         </p>
@@ -120,7 +119,7 @@ export default function Home() {
         ].map((course, idx) => (
           <div
             key={idx}
-            className="shadow-md hover:shadow-lg hover:shadow-cyan-500 shadow-cyan-400 rounded-md"
+            className="shadow-md hover:shadow-lg hover:shadow-teal-500 shadow-teal-400 rounded-md"
           >
             <Image
               className="h-56 mt-4 w-full px-12 object-cover"
@@ -131,7 +130,7 @@ export default function Home() {
             />
             <div className="p-4 pb-10 ">
               <h2 className="font-bold  text-xl mb-2">{course.title}</h2>
-              <p className="text-sm text-justify text-gray-700">
+              <p className="text-base text-justify text-gray-700">
                 {course.desc}
               </p>
             </div>
@@ -147,9 +146,9 @@ export default function Home() {
 
 
       {/*packages section */}
-      <div className="mt-8 px-4 text-center">
+      <div className="mt-2 px-4 text-center">
         <h1 className="lg:text-4xl text-xl font-bold text-black mb-8">
-          Package Plans
+          Basic Plans
         </h1>
 
        <Pricing />
@@ -158,11 +157,7 @@ export default function Home() {
 
           
 
-      <div className="py-10">
-        <h1 className="text-center text-xs text-gray-500 ">
-          Copyright © 2025 Darul Quran Academy |
-        </h1>
-      </div>
+      <Footer/>
     </div>
   );
 }

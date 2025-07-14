@@ -12,9 +12,9 @@ const Navbar = () => {
   return (
     <header className="bg-white shadow-md w-full">
       {/* Top Bar */}
-      <div className="hidden sm:flex justify-between items-center px-6 py-2 bg-gray-100 text-sm text-gray-700">
+      <div className="hidden sm:flex justify-between items-center px-6 py-2 bg-gray-100 text-base text-gray-700">
         <div className="flex items-center gap-2">
-          <MdEmail className="text-blue-500 text-lg" />
+          <MdEmail className="text-teal-500 text-lg" />
           <span>info@darulilmacademy.com</span>
         </div>
         <div className="flex items-center gap-6">
@@ -45,7 +45,7 @@ const Navbar = () => {
 
           {/* Desktop Menu */}
           <nav className="hidden md:flex items-center space-x-6 font-sans text-gray-700">
-            <Link href="/" className="hover:text-blue-500">
+            <Link href="/" className="hover:text-teal-500">
               Home
             </Link>
 
@@ -55,7 +55,7 @@ const Navbar = () => {
               onMouseEnter={() => setListOpen(true)}
               onMouseLeave={() => setListOpen(false)}
             >
-              <button className="flex items-center hover:text-blue-500">
+              <button className="flex items-center hover:text-teal-500">
                 Courses
                 <FaChevronDown
                  
@@ -82,26 +82,26 @@ const Navbar = () => {
               )}
             </div>
 
-            <Link href="/pricing" className="hover:text-blue-500">
+            <Link href="/pricing" className="hover:text-teal-500">
               Pricing
             </Link>
-            <Link href="/reviews" className="hover:text-blue-500">
+            <Link href="/reviews" className="hover:text-teal-500">
               Reviews
             </Link>
-            <Link href="/faqs" className="hover:text-blue-500">
+            <Link href="/faqs" className="hover:text-teal-500">
               FAQs
             </Link>
-            <Link href="/contact_us" className="hover:text-blue-500">
+            <Link href="/contact_us" className="hover:text-teal-500">
               Contact Us
             </Link>
-               <Link href="/aboutUs" className="hover:text-blue-500">
+               <Link href="/aboutUs" className="hover:text-teal-500">
               About Us
             </Link>
-            <Link href="/islamic_blog" className="hover:text-blue-500">
+            <Link href="/islamic_blog" className="hover:text-teal-500">
               Islamic Blog
             </Link>
             
-            <Link href="/terms" className="hover:text-blue-500">
+            <Link href="/terms" className="hover:text-teal-500">
               Terms & Conditions
             </Link>
          
@@ -137,7 +137,7 @@ const Navbar = () => {
               <li>
                 <button
                   onClick={() => setListOpen(!openList)}
-                  className="flex items-center text-gray-700 hover:text-blue-500"
+                  className="flex items-center text-gray-700 hover:text-teal-500"
                 >
                   Courses
                   <FaChevronDown

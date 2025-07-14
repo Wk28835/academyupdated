@@ -4,16 +4,16 @@ const FreeTrial = () => {
       <div className="w-full max-w-md">
         {/* Title */}
         <div className="text-center mb-6">
-          <h2 className="text-2xl font-bold text-[#1AB0BA]">
+          <h2 className="text-3xl font-bold text-teal-500">
             Free Trial Form
           </h2>
-          <p className="text-sm text-gray-600 mt-1">
+          <p className="text-base text-gray-600 mt-1">
            Enjoy 1-Day Free Trial – No Obligation, Just Learning!
           </p>
         </div>
 
         {/* Form */}
-        <form className="space-y-4 mx-2 rounded-md shadow-2xl">
+        <form className="space-y-4 mx-2 rounded-md shadow-xl">
           <div className="px-2">
           <input
             type="text"
@@ -98,7 +98,7 @@ const FreeTrial = () => {
 
           <button
             type="submit"
-            className="w-full bg-[#1AB0BA] hover:bg-cyan-700 text-white py-3 rounded-md font-semibold"
+            className="w-full bg-[#1AB0BA] hover:bg-teal-700 text-white py-3 rounded-md font-semibold"
           >
             Apply Now
           </button>

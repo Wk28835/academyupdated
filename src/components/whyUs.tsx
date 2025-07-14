@@ -53,7 +53,7 @@ const WhyUs = () => {
 
   return (
     <header
-      className=" relative bg-cover bg-center bg-no-repeat py-16 "
+      className=" relative bg-cover bg-center bg-no-repeat py-10 "
       style={{
         backgroundImage: "url('/background2.jpeg')"  // ✅ Use your background image here
       }}>
@@ -64,9 +64,9 @@ const WhyUs = () => {
         <div
         style={{ fontFamily: "Poppins, sans-serif" }}
         className="text-center px-4" >
-        <h1 className="text-black text-lg lg:text-3xl font-bold mb-6">
+        <h1 className="text-black text-xl lg:text-3xl font-bold mb-6">
           Why{" "}
-          <span className="text-[#1AB0BA] font-semibold">
+          <span className="text-teal-500 font-semibold">
             Darul Ilm Quran
           </span>{" "}
           Academy
@@ -77,7 +77,7 @@ const WhyUs = () => {
             <div
               key={i}
               className="flex flex-col items-center shadow-sm bg-white p-4 w-full sm:w-full md:w-[45%] lg:w-[30%] max-w-full
-               hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400"
+               hover:shadow-md hover:shadow-teal-500 shadow-teal-400"
             >
               <div className="lg:min-w-[60px] min-h-[40px] mb-2">
                 <Image
@@ -89,10 +89,10 @@ const WhyUs = () => {
                 />
               </div>
               <div className="text-center">
-                <p className="font-semibold text-black pb-2 text-base">
+                <p className="font-semibold text-black pb-2 text-lg">
                   {feature.title}
                 </p>
-                <p className="text-sm my-2 text-black">{feature.desc}</p>
+                <p className="text-base my-2 text-black">{feature.desc}</p>
               </div>
             </div>
           ))}

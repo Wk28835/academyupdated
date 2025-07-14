@@ -1,4 +1,5 @@
 
+import Footer from "@/components/Footer";
 import Pricing from "../../components/Pricing";
 
 export default function Price() {
@@ -24,11 +25,7 @@ export default function Price() {
           <Pricing />
         </div>
 
-        <div className="pt-10">
-          <h1 className="text-center text-xs text-gray-500 ">
-            Copyright © 2025 Darul Quran Academy |
-          </h1>
-        </div>
+       <Footer/>
       </div>
     </div>
   );

@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import JoinForm from "@/components/JoinForm"
 
 export default function Register() {
@@ -28,11 +29,7 @@ export default function Register() {
       </div>
     
 
-        <div className="pt-10">
-          <h1 className="text-center text-xs text-gray-500 ">
-            Copyright © 2025 Darul Quran Academy |
-          </h1>
-        </div>
+        <Footer/>
     </div>
   );
 }

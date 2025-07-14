@@ -24,7 +24,7 @@ export default function Reviews() {
       </div>
 
       <div className="pt-12">
-        <h1 className="px-2 text-3xl text-center text-[#13B4B6] font-bold">
+        <h1 className="px-2 text-3xl text-center text-teal-500 font-bold">
           Dar ul Quran Academy Reviews
         </h1>
       </div>

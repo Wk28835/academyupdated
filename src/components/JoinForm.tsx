@@ -1,19 +1,19 @@
 const JoinForm = () => {
   return (
-    <div className="bg-white  py-8 flex justify-center items-center">
+    <div className="bg-white px-2 py-6 flex justify-center items-center">
       <div className="w-full max-w-md">
         {/* Title */}
         <div className="text-center mb-6">
-          <h2 className="text-2xl font-bold text-[#1AB0BA]">
+          <h2 className="text-3xl font-bold text-[#1AB0BA]">
             Register Now
           </h2>
-          <p className="text-sm text-gray-600 mt-1">
+          <p className="text-xl text-gray-600 mt-1">
            Join Darul Ilm Online Quran Academy learning!
           </p>
         </div>
 
         {/* Form */}
-        <form className="space-y-4 border-x-6 border-[#1AB0BA] px-4">
+        <form className="space-y-4 border-5 py-2 border-[#1AB0BA] px-4">
           <input
             type="text"
             placeholder="Full Name"
@@ -30,7 +30,7 @@ const JoinForm = () => {
 
           {/* Gender */}
           <div>
-            <p className="mb-2 text-sm font-medium text-gray-700">Gender</p>
+            <p className="mb-2 text-lg font-medium text-gray-700">Gender</p>
             <div className="flex gap-4">
               <label className="flex items-center gap-1">
                 <input

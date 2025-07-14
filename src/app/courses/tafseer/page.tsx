@@ -3,6 +3,7 @@ import ClassInfo from "@/components/ClassInfo";
 import JoinForm from "@/components/JoinForm";
 import WhyUs from "@/components/whyUs";
 import Faqs from "@/components/Faqs";
+import Footer from "@/components/Footer";
 
 
 export default function NooraniQaidaCourse() {
@@ -13,15 +14,14 @@ export default function NooraniQaidaCourse() {
         className="relative rounded-md w-full h-[180px] bg-cover bg-center"
         style={{ backgroundImage: "url('/books.jpg')" }}
       >
-        <div className="absolute inset-0   bg-opacity-100 shadow-lg flex flex-col lg:flex-row justify-between items-center px-10 py4">
+        <div className="absolute inset-0   bg-opacity-100 shadow-lg flex flex-col lg:flex-row justify-between items-center px-10 py-1">
           <div className="text-white max-w-xl">
             <h2 className="font-semibold text-xl lg:text-3xl text-wrap pt-2  lg:text-left px-4 lg:px-24">
               Quran-Tafseer Course in USA, UK & Canada
             </h2>
-            <p className="text-sm lg:text-xl text-justify  text-white lg:text-left px-4 lg:px-24">
-              Learn Quran Tafseer Course Online with expert scholars. Flexible,
-              interactive courses in English for USA, UK, and Canada. Enroll
-              now!
+            <p className="text-base lg:text-xl text-wrap text-white lg:text-left px-4 lg:px-24">
+              Learn Quran Tafseer Course with expert scholars. Flexible,
+              interactive courses in English for USA, UK, and Canada!
             </p>
           </div>
         </div>
@@ -30,11 +30,11 @@ export default function NooraniQaidaCourse() {
       <div style={{ fontFamily: 'Roboto, sans-serif' }} 
       className="flex flex-wrap justify-center gap-8 px-2 mt-4 lg:mt-16">
         <div className="bg-white border-1 border-gray-200 shadow-md p-6 w-full md:w-2/3 sm:w-1/4 rounded-md">
-          <h1 className="lg:text-2xl text-xl  text-cyan-500 font-bold mb-4">
+          <h1 className="lg:text-2xl text-xl  text-teal-500 font-bold mb-4">
             Discover the Depths of the Holy Quran with Our Quran Tafseer Course
             Online
           </h1>
-          <p className="text-justify text-sm text-gray-700">
+          <p className="text-justify text-lg text-gray-700">
             Quran Tafseer Course Online is a pathway to understanding the
             timeless guide for humanity, the Quran. Delve deep into its divine
             message, meanings, and context through our meticulously designed
@@ -45,10 +45,10 @@ export default function NooraniQaidaCourse() {
             today’s world.
           </p>
 
-          <h1 className="lg:text-2xl text-xl  py-4 text-cyan-500 font-bold mb-2">
+          <h1 className="lg:text-2xl text-xl  py-4 text-teal-500 font-bold mb-2">
             What is Tafseer?
           </h1>
-          <p className="text-justify text-sm  text-gray-700">
+          <p className="text-justify text-lg  text-gray-700">
             Tajweed refers to the set of rules governing the proper
             pronunciation of Quranic Arabic during recitation. It ensures that
             every letter is pronounced correctly, maintaining its rightful
@@ -57,7 +57,7 @@ export default function NooraniQaidaCourse() {
             recite it as it was revealed to the Prophet Muhammad (peace be upon
             him).
           </p>
-          <h1 className="lg:text-2xl text-xl  text-cyan-500 font-bold my-6">
+          <h1 className="lg:text-2xl text-xl  text-teal-500 font-bold my-6">
             Why Choose Our Quran Tafseer Course Online?
           </h1>
 
@@ -85,7 +85,7 @@ export default function NooraniQaidaCourse() {
             </li>
           </ul>
 
-          <h1 className="lg:text-2xl text-xl  text-cyan-500 font-bold my-6">
+          <h1 className="lg:text-2xl text-xl  text-teal-500 font-bold my-6">
             Key Features of the Quran Tafseer Course Online
           </h1>
 
@@ -109,7 +109,7 @@ export default function NooraniQaidaCourse() {
             </li>
           </ul>
 
-          <h1 className="lg:text-2xl text-xl  text-cyan-500 font-bold my-6">
+          <h1 className="lg:text-2xl text-xl  text-teal-500 font-bold my-6">
             Who Is This Course For?
           </h1>
 
@@ -126,16 +126,16 @@ export default function NooraniQaidaCourse() {
             </li>
           </ul>
 
-          <button className="lg:w-1/3 w-full bg-cyan-400 hover:animate-bounce hover:bg-cyan-700 text-white py-3 my-4 rounded-md font-semibold">
+          <button className="lg:w-1/3 w-full bg-teal-400 hover:animate-bounce hover:bg-teal-700 text-white py-3 my-4 rounded-md font-semibold">
             Get Enrolled Now
           </button>
         </div>
 
         <ClassInfo />
          <div className="flex flex-col lg:flex-row flex-wrap justify-center items-stretch gap-6 mt-10 px-2">
-          <div className="flex mx-auto border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 items-center bg-white p-4 rounded-md">
+          <div className="flex mx-auto border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-teal-500 shadow-teal-400 items-center bg-white p-4 rounded-md">
             <div className="mx-2 text-start">
-              <p className="text-cyan-500 font-semibold text-lg">
+              <p className="text-teal-500 font-semibold text-lg">
                 What You Will Learn In This Course?
               </p>
               <ul className="list-disc text-wrap mt-4 space-y-2 text-gray-800">
@@ -148,9 +148,9 @@ export default function NooraniQaidaCourse() {
             </div>
           </div>
 
-          <div className="flex mx-auto border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 items-center bg-white p-4 rounded-md">
+          <div className="flex mx-auto border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-teal-500 shadow-teal-400 items-center bg-white p-4 rounded-md">
             <div className="mx-2 text-start">
-              <p className="text-cyan-500 font-semibold text-lg">
+              <p className="text-teal-500 font-semibold text-lg">
                 Tafseer Quran Course Outline:
               </p>
               <ul className="list-disc text-wrap mt-4 space-y-2 text-gray-800">
@@ -165,21 +165,21 @@ export default function NooraniQaidaCourse() {
         </div>
 
         <div className="bg-white border-2 border-gray-300  shadow-md p-6 w-full md:w-10/12 sm:w-1/4 rounded-md">
-          <h1 className="lg:text-2xl text-xl  text-cyan-500 font-bold mb-4">
+          <h1 className="lg:text-2xl text-xl  text-teal-500 font-bold mb-4">
             Basic Quran Reading for Beginners
           </h1>
-          <p className="text-justify text-sm  text-gray-700">
+          <p className="text-justify text-lg  text-gray-700">
             For those new to the Quran, our course starts with the fundamentals
             of Quran reading. This includes learning to recognize the Arabic
             alphabet, vowels, and how to form basic words. We guide you
             step-by-step from the basics, making it ideal for children and
             adults who are new to Quranic studies.
           </p>
-          <h1 className="lg:text-2xl text-xl  text-cyan-500 font-bold my-6">
+          <h1 className="lg:text-2xl text-xl  text-teal-500 font-bold my-6">
             Quran Reading with Urdu Translation and Tafseer
           </h1>
 
-          <p className="text-justify my-2 text-sm  text-gray-700">
+          <p className="text-justify my-2 text-lg  text-gray-700">
             Our curriculum goes beyond just reading the Quran. We provide
             detailed Urdu translations and Tafseer (exegesis) to help you
             understand the meanings and context of Quranic verses. This deeper
@@ -187,22 +187,22 @@ export default function NooraniQaidaCourse() {
             a more meaningful way.
           </p>
 
-          <h1 className="lg:text-2xl text-xl  text-cyan-500 font-bold my-6">
+          <h1 className="lg:text-2xl text-xl  text-teal-500 font-bold my-6">
             Improve Quran Recitation and Fluency
           </h1>
 
-          <p className="text-justify my-2 text-sm  text-gray-700">
+          <p className="text-justify my-2 text-lg  text-gray-700">
             In addition to basic reading, we focus on improving your fluency in
             reciting the Quran. With practical recitation lessons led by
             experienced instructors, you will gain confidence in reading the
             Quran and perfect your pronunciation.
           </p>
 
-          <h1 className="lg:text-2xl text-xl  text-cyan-500 font-bold my-6">
+          <h1 className="lg:text-2xl text-xl  text-teal-500 font-bold my-6">
             Free Online Quran Reading Trial
           </h1>
 
-          <p className="text-justify my-2 text-sm text-gray-700">
+          <p className="text-justify my-2 text-lg text-gray-700">
             If you are unsure whether online learning is right for you, we offer
             a free trial class where you can experience our teaching methods
             firsthand. This gives you the chance to see how our courses work and
@@ -217,7 +217,7 @@ export default function NooraniQaidaCourse() {
       </div>
 
       <div className="flex flex-wrap justify-center gap-8 px-4  lg:mt-16">
-        <div className="bg-white border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 p-6 w-full md:w-[600px] rounded-md">
+        <div className="bg-white border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-teal-500 shadow-teal-400 p-6 w-full md:w-[600px] rounded-md">
           <h1 className="lg:text-2xl text-xl  text-black font-bold mb-4">Terms & Conditions</h1>
           <p className="text-justify text-gray-700">
             <b>Darul Ilm Online Quran Academy</b> maintains the privacy of both
@@ -227,20 +227,16 @@ export default function NooraniQaidaCourse() {
          <Faqs />
         </div>
 
-        <div className="bg-white border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-cyan-500 shadow-cyan-400 p-6 w-full md:w-[400px] rounded-md">
+        <div className="bg-white border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-teal-500 shadow-teal-400 p-6 w-full md:w-[400px] rounded-md">
           <h1 className="lg:text-2xl text-xl  text-black font-bold mb-4">Join Free Trial Classes</h1>
-          <p className="mb-4 text-gray-700">
+          <p className=" text-gray-700">
             Male & Female Teachers Are Available
           </p>
           <JoinForm />
         </div>
       </div>
 
-      <div className="pt-10">
-        <h1 className="text-center text-xs text-gray-500 ">
-          Copyright © 2025 Darul Ilm Online Quran Academy |
-        </h1>
-      </div>
+      <Footer/>
     </div>
   );
 }
