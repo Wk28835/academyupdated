@@ -17,7 +17,10 @@ export default function HadithCourse() {
               Hadith Course Online
             </h2>
             <p className="lg:text-xl text-base text-justify text-white  lg:text-left px-4 lg:px-24">
-              Enroll in our Hadith Course Online to learn authentic sayings of the Prophet (ﷺ). Ideal for beginners and seekers of Islamic knowledge. Study Hadith with scholars and understand its practical application in daily life.
+              Enroll in our Hadith Course Online to learn authentic sayings of
+              the Prophet (ﷺ). Ideal for beginners and seekers of Islamic
+              knowledge. Study Hadith with scholars and understand its practical
+              application in daily life.
             </p>
           </div>
         </div>
@@ -53,16 +56,20 @@ export default function HadithCourse() {
 
           <ul className="list-disc text-wrap ml-6 mt-4 space-y-2 text-gray-800">
             <li>
-              Flexible Learning: Study Hadith at your own pace with our online classes
+              Flexible Learning: Study Hadith at your own pace with our online
+              classes
             </li>
             <li>
-              Learn from qualified scholars with authentic chains of transmission and deep knowledge of Hadith sciences.
+              Learn from qualified scholars with authentic chains of
+              transmission and deep knowledge of Hadith sciences.
             </li>
             <li>
-              Structured Curriculum: Organized lessons from beginner to advanced levels, tailored to suit all learners.
+              Structured Curriculum: Organized lessons from beginner to advanced
+              levels, tailored to suit all learners.
             </li>
             <li>
-              Interactive Approach: Benefit from live sessions, discussions, and practical insights to help you apply Hadith in daily life.
+              Interactive Approach: Benefit from live sessions, discussions, and
+              practical insights to help you apply Hadith in daily life.
             </li>
           </ul>
 
@@ -72,16 +79,20 @@ export default function HadithCourse() {
 
           <ul className="list-disc text-wrap ml-6 mt-4 space-y-2 text-gray-800">
             <li>
-              Study authentic Hadith collections such as Bukhari, Muslim, and Nawawi’s 40 Hadith.
+              Study authentic Hadith collections such as Bukhari, Muslim, and
+              Nawawi’s 40 Hadith.
             </li>
             <li>
-              Emphasis on understanding the context, meaning, and implementation of Hadith in life.
+              Emphasis on understanding the context, meaning, and implementation
+              of Hadith in life.
             </li>
             <li>
-              Includes explanation (Sharh) by qualified teachers for better comprehension and practical application.
+              Includes explanation (Sharh) by qualified teachers for better
+              comprehension and practical application.
             </li>
             <li>
-              Small group sessions for personalized learning and Q&A with instructors.
+              Small group sessions for personalized learning and Q&A with
+              instructors.
             </li>
           </ul>
 
@@ -90,7 +101,10 @@ export default function HadithCourse() {
           </h1>
 
           <p className="text-justify text-gray-700">
-            Our Hadith course is carefully designed to make the study of prophetic traditions meaningful and effective. Through guided study and reflection, students will gain both knowledge and wisdom from the words of the Prophet (ﷺ).
+            Our Hadith course is carefully designed to make the study of
+            prophetic traditions meaningful and effective. Through guided study
+            and reflection, students will gain both knowledge and wisdom from
+            the words of the Prophet (ﷺ).
           </p>
 
           <button className="lg:w-1/3 w-full bg-teal-400 hover:animate-bounce hover:bg-teal-700 text-white py-3 my-4 rounded-md font-semibold">
@@ -109,9 +123,13 @@ export default function HadithCourse() {
               <ul className="list-disc text-wrap mt-4 space-y-2 text-gray-800">
                 <li>Understand the classifications and sciences of Hadith</li>
                 <li>Study selected Hadith from Sahih collections</li>
-                <li>Learn the background and meanings of key prophetic sayings</li>
+                <li>
+                  Learn the background and meanings of key prophetic sayings
+                </li>
                 <li>Explore how Hadith apply to modern-day situations</li>
-                <li>Enhance your spiritual connection through prophetic wisdom</li>
+                <li>
+                  Enhance your spiritual connection through prophetic wisdom
+                </li>
               </ul>
             </div>
           </div>
@@ -171,16 +189,17 @@ export default function HadithCourse() {
             structure, teaching style, and content before making a commitment.
           </p>
         </div>
-
       </div>
 
-       <div className="px-0 w-full">
-      <WhyUs />
+      <div className="px-0 w-full">
+        <WhyUs />
       </div>
 
       <div className="flex flex-wrap justify-center gap-8 px-4 mt-1 lg:mt-16">
         <div className="bg-white border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-teal-500 shadow-teal-400 p-6 w-full md:w-[600px] rounded-md">
-          <h1 className="lg:text-2xl text-xl  text-black font-bold mb-4">Terms & Conditions</h1>
+          <h1 className="lg:text-2xl text-xl  text-black font-bold mb-4">
+            Terms & Conditions
+          </h1>
           <p className="text-justify text-lg text-gray-700">
             <b>Darul Ilm Online Quran Academy</b> maintains the privacy of both
             students and teachers. All personal information is treated as
@@ -191,14 +210,16 @@ export default function HadithCourse() {
         </div>
 
         <div className="bg-white border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-teal-500 shadow-teal-400 p-6 w-full md:w-[400px] rounded-md">
-          <h1 className="lg:text-2xl text-xl  text-black font-bold mb-4">Join Free Trial Classes</h1>
+          <h1 className="lg:text-2xl text-xl  text-black font-bold mb-4">
+            Join Free Trial Classes
+          </h1>
           <p className=" text-gray-700">Male & Female Teachers Are Available</p>
 
           <JoinForm />
         </div>
       </div>
 
-      <Footer/>
+      <Footer />
     </div>
   );
 }

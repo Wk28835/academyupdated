@@ -1,4 +1,3 @@
-
 import ClassInfo from "@/components/ClassInfo";
 
 import JoinForm from "@/components/JoinForm";
@@ -6,10 +5,7 @@ import WhyUs from "@/components/whyUs";
 import Faqs from "@/components/Faqs";
 import Footer from "@/components/Footer";
 
-
 export default function ArabicCourse() {
-  
-
   return (
     <div className="w-full mx-0 ">
       <div
@@ -23,15 +19,17 @@ export default function ArabicCourse() {
             </h2>
             <p className="lg:text-xl text-base text-justify text-white  lg:text-left px-4 lg:px-24">
               Join our Arabic Language Course Online to master conversational
-              and written Arabic. Perfect for beginners and travelers. 
-              Enroll now!
+              and written Arabic. Perfect for beginners and travelers. Enroll
+              now!
             </p>
           </div>
         </div>
       </div>
 
-      <div style={{ fontFamily: 'Roboto, sans-serif' }} 
-      className="flex flex-wrap justify-center gap-8 px-2 mt-4 lg:mt-16">
+      <div
+        style={{ fontFamily: "Roboto, sans-serif" }}
+        className="flex flex-wrap justify-center gap-8 px-2 mt-4 lg:mt-16"
+      >
         <div className="bg-white border-1 border-gray-200 shadow-md p-6 w-full md:w-2/3 sm:w-1/4 rounded-md">
           <h1 className="lg:text-2xl text-2xl  text-teal-500 font-bold mb-4">
             Learn Arabic Online with Expert Guidance
@@ -116,9 +114,9 @@ export default function ArabicCourse() {
           </button>
         </div>
 
-       <ClassInfo />
+        <ClassInfo />
 
-         <div className="flex flex-col lg:flex-row flex-wrap justify-center items-stretch gap-4 mt-10 px-4">
+        <div className="flex flex-col lg:flex-row flex-wrap justify-center items-stretch gap-4 mt-10 px-4">
           <div className="flex mx-auto border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-teal-500 shadow-teal-400 items-center bg-white p-4 rounded-md">
             <div className="mx-2 text-start">
               <p className="text-teal-500 font-semibold text-lg">
@@ -198,41 +196,39 @@ export default function ArabicCourse() {
             decide if it’s the best fit for your learning needs.
           </p>
         </div>
-
-       
       </div>
 
       <div className="px-0 w-full">
-            <WhyUs />
-            </div>
+        <WhyUs />
+      </div>
 
       <div className="flex flex-wrap justify-center gap-8 px-4 mt-1 lg:mt-16">
         <div className="bg-white border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-teal-500 shadow-teal-400 p-6 w-full md:w-[600px] rounded-md">
-          <h1 className="lg:text-2xl text-xl  text-black font-bold mb-4">Terms & Conditions</h1>
+          <h1 className="lg:text-2xl text-xl  text-black font-bold mb-4">
+            Terms & Conditions
+          </h1>
           <p className="text-justify text-gray-700">
             <b>Darul Ilm Online Quran Academy</b> maintains the privacy of both
             students and teachers. All personal information is treated as
             confidential.
           </p>
-         
-            <Faqs />
 
+          <Faqs />
         </div>
 
         <div className="bg-white border-2 border-gray-300 shadow-sm hover:shadow-md hover:shadow-teal-500 shadow-teal-400 p-6 w-full md:w-[400px] rounded-md">
-          <h1 className="lg:text-2xl text-xl  text-black font-bold mb-4">Join Free Trial Classes</h1>
+          <h1 className="lg:text-2xl text-xl  text-black font-bold mb-4">
+            Join Free Trial Classes
+          </h1>
           <p className="mb-0 text-gray-700">
             Male & Female Teachers Are Available
           </p>
 
-
           <JoinForm />
-
-
         </div>
       </div>
 
-      <Footer/>
+      <Footer />
     </div>
   );
 }

@@ -13,7 +13,9 @@ const Faqs = () => {
       question: "What Do I Need to Start?",
       answer: (
         <>
-          <p className="px-2">• A device (PC, tablet, or phone) with internet.</p>
+          <p className="px-2">
+            • A device (PC, tablet, or phone) with internet.
+          </p>
           <p className="px-2">• Install Zoom or Skype and sign in.</p>
           <p className="px-2">• Your teacher will contact you at class time.</p>
         </>

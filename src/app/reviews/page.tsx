@@ -1,6 +1,7 @@
   
 "use client";
 
+import Footer from '@/components/Footer';
 import StudentReview from './../../components/StudentReview';
 
 
@@ -35,11 +36,7 @@ export default function Reviews() {
     <StudentReview/>
         
       </div>
-      <div className="pt-10">
-        <h1 className="text-center text-xs text-gray-500 ">
-          Copyright © 2025 Darul Ilm Online Quran Academy |
-        </h1>
-      </div>
+      <Footer/>
     </div>
   );
 }

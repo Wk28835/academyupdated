@@ -4,6 +4,7 @@ import Footer from "@/components/Footer";
 
 export default function TermsAndConditions() {
   return (
+    <div>
     <section className="w-full px-4 py-10 sm:py-8 bg-white text-gray-800">
       <div className="max-w-5xl mx-auto">
         <h1
@@ -107,8 +108,9 @@ export default function TermsAndConditions() {
           </div>
         </div>
 
-        <Footer/>
       </div>
     </section>
+      <Footer/>
+    </div>
   );
 }
